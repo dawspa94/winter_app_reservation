@@ -6,7 +6,7 @@ const Equipment = () => {
   const [equipment, setEquipment] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:4000/api/equipment') // Poprawny URL backendu
+    axios.get('https://nazwa-backend-app.azurewebsites.net/api/equipment') // Poprawny URL backendu
       .then((response) => {
         console.log('Dane pobrane z backendu:', response.data); // Wyświetl dane w konsoli, aby sprawdzić, czy są poprawnie pobierane
         setEquipment(response.data);

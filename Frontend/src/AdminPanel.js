@@ -26,7 +26,7 @@ const AdminPanel = () => {
   const [rentals, setRentals] = useState([]);
 
   useEffect(() => {
-    axios.get('/api/rentals')
+    axios.get('https://nazwa-backend-app.azurewebsites.net/api/rentals')
       .then(response => {
         setRentals(response.data);
       })

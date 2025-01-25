@@ -1,0 +1,97 @@
+<step title="Incoming Request" date="2025-01-24T19:25:48.215" instance="3d3e86" url="/api/publish?type=zip" method="POST" type="request" pid="87,1,28" Accept="*/*" Host="winter-frontend-app.scm.azurewebsites.net" User-Agent="AZURECLI/2.68.0 (HOMEBREW)" Accept-Encoding="gzip, deflate" Authorization="Bas..." Cache-Control="no-cache" Content-Type="application/octet-stream" Content-Length="90146491" x-ms-client-request-id="016858f2-da89-11ef-baa3-5669ec64a9e2" x-ms-artifact-checksum="bf2292e94d0cec27623e8a906ae21145f711419399a96f819c1af0c9e6ed7976" X-ARR-LOG-ID="016858f2-da89-11ef-baa3-5669ec64a9e2" CLIENT-IP="89.64.57.58:21079" X-Client-IP="89.64.57.58" X-SITE-DEPLOYMENT-ID="winter-frontend-app" WAS-DEFAULT-HOSTNAME="winter-frontend-app.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/publish?type=zip" X-Client-Port="21079" >
+  <step title="Cleanup Xml Logs" date="2025-01-24T19:25:48.260" /><!-- duration: 25ms -->
+  <step title="OneDeploy" date="2025-01-24T19:25:48.355" >
+    <step title="Starting PushDeployAsync" date="2025-01-24T19:25:48.399" /><!-- duration: 24ms -->
+    <step title="Writing artifact to /tmp/zipdeploy/52bce2a9-888d-4eff-b93f-897d55a0d0d3.zip" date="2025-01-24T19:25:48.501" >
+      <step title="Writing request body to artifacts at /tmp/zipdeploy/52bce2a9-888d-4eff-b93f-897d55a0d0d3.zip" date="2025-01-24T19:25:48.512" /><!-- duration: 8ms -->
+    </step><!-- duration: 24170ms -->
+    <step title="Attempting to fetch target branch HEAD" date="2025-01-24T19:26:12.754" /><!-- duration: 10ms -->
+    <step title="Acquiring Deployment Lock" date="2025-01-24T19:26:12.846" /><!-- duration: 10ms -->
+    <step title="Acquired Deployment Lock" date="2025-01-24T19:26:13.066" /><!-- duration: 19ms -->
+    <step title="Performing fetch based deployment" date="2025-01-24T19:26:13.122" >
+      <step title="Creating temporary deployment" date="2025-01-24T19:26:13.171" /><!-- duration: 190ms -->
+      <step title="Releasing Deployment Lock" date="2025-01-24T19:26:14.783" /><!-- duration: 35ms -->
+      <step title="Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/52bce2a9-888d-4eff-b93f-897d55a0d0d3.zip (85.97 MB) to /tmp/zipdeploy/extracted" date="2025-01-24T19:26:14.864" >
+        <step title="ChmodRecursive Process exited with total time taken in ms: 567" date="2025-01-24T19:27:38.502" /><!-- duration: 31ms -->
+      </step><!-- duration: 83705ms -->
+      <step title="None repository commit" date="2025-01-24T19:27:38.596" >
+        <step title="Commit id: 06654ed4-1251-4c8f-93d7-6b3a29485d9a" date="2025-01-24T19:27:38.615" Message="OneDeploy" AuthorName="N/A" AuthorEmail="N/A" /><!-- duration: 12ms -->
+      </step><!-- duration: 42ms -->
+      <step title="Deployment timer started" date="2025-01-24T19:27:40.656" >
+        <step title="DeploymentManager.Deploy(id:06654ed4-1251-4c8f-93d7-6b3a29485d9a)" date="2025-01-24T19:27:40.675" >
+          <step title="Collecting changeset information" date="2025-01-24T19:27:40.741" /><!-- duration: 174ms -->
+          <step title="Updating submodules" date="2025-01-24T19:27:40.935" /><!-- duration: 1251ms -->
+          <step title="Determining deployment builder" date="2025-01-24T19:27:42.493" >
+            <step title="Builder is OneDeployBuilder" date="2025-01-24T19:27:42.543" /><!-- duration: 15ms -->
+          </step><!-- duration: 85ms -->
+          <step title="PreDeployment: context.CleanOutputPath False" date="2025-01-24T19:27:42.760" >
+            <step title="PreDeployment: context.OutputPath /home/site/wwwroot" date="2025-01-24T19:27:42.972" >
+              <step title="Building" date="2025-01-24T19:27:43.238" >
+                <step title="Error occurred" date="2025-01-24T19:28:06.437" type="error" text="Source directory does not exist or could not be found: /tmp/zipdeploy/extracted/node_modules/onetime" stackTrace="   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 252
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Deployment.Generator.OneDeployBuilder.Build(DeploymentContext context, CancellationToken token) in /tmp/KuduLite/Kudu.Core/Deployment/Generator/OneDeployBuilder.cs:line 92
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 762" /><!-- duration: 25ms -->
+                <step title="Purge deployment items" date="2025-01-24T19:28:08.662" >
+                  <step title="Remove temp-c803, Pending, received at 01/24/2025 19:26:13" date="2025-01-24T19:28:08.822" /><!-- duration: 18ms -->
+                  <step title="Remove 06654ed4-, Failed, received at 01/24/2025 19:27:40" date="2025-01-24T19:28:08.958" /><!-- duration: 10ms -->
+                </step><!-- duration: 362ms -->
+              </step><!-- duration: 25814ms -->
+            </step><!-- duration: 26139ms -->
+            <step title="Error occurred" date="2025-01-24T19:28:09.132" type="error" text="Source directory does not exist or could not be found: /tmp/zipdeploy/extracted/node_modules/onetime" stackTrace="   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 252
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Deployment.Generator.OneDeployBuilder.Build(DeploymentContext context, CancellationToken token) in /tmp/KuduLite/Kudu.Core/Deployment/Generator/OneDeployBuilder.cs:line 92
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 762
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 831" /><!-- duration: 16ms -->
+            <step title="Cleaning up temp files" date="2025-01-24T19:28:10.397" /><!-- duration: 37ms -->
+            <step title="Cleaning up temp files" date="2025-01-24T19:28:10.462" /><!-- duration: 593ms -->
+            <step title="Error occurred" date="2025-01-24T19:28:11.141" type="error" text="Source directory does not exist or could not be found: /tmp/zipdeploy/extracted/node_modules/onetime" stackTrace="   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 252
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Deployment.Generator.OneDeployBuilder.Build(DeploymentContext context, CancellationToken token) in /tmp/KuduLite/Kudu.Core/Deployment/Generator/OneDeployBuilder.cs:line 92
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 762
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 831
+   at Kudu.Core.Deployment.DeploymentManager.DeployAsync(IRepository repository, ChangeSet changeSet, String deployer, Boolean clean, DeploymentInfoBase deploymentInfo, Boolean needFileUpdate, Boolean fullBuildByDefault) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 266" /><!-- duration: 26ms -->
+          </step><!-- duration: 28454ms -->
+          <step title="Reloading status file with latest updates" date="2025-01-24T19:28:11.377" /><!-- duration: 37ms -->
+          <step title="Error occurred" date="2025-01-24T19:28:11.455" type="error" text="Source directory does not exist or could not be found: /tmp/zipdeploy/extracted/node_modules/onetime" stackTrace="   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 252
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Deployment.Generator.OneDeployBuilder.Build(DeploymentContext context, CancellationToken token) in /tmp/KuduLite/Kudu.Core/Deployment/Generator/OneDeployBuilder.cs:line 92
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 762
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 831
+   at Kudu.Core.Deployment.DeploymentManager.DeployAsync(IRepository repository, ChangeSet changeSet, String deployer, Boolean clean, DeploymentInfoBase deploymentInfo, Boolean needFileUpdate, Boolean fullBuildByDefault) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 266" /><!-- duration: 16ms -->
+          <step title="Could not find status file to mark the deployment failed" date="2025-01-24T19:28:11.619" /><!-- duration: 18ms -->
+        </step><!-- duration: 30986ms -->
+      </step><!-- duration: 31036ms -->
+      <step title="Error occurred" date="2025-01-24T19:28:11.939" type="error" text="Deployment failed" stackTrace="   at Kudu.Core.Deployment.DeploymentManager.DeployAsync(IRepository repository, ChangeSet changeSet, String deployer, Boolean clean, DeploymentInfoBase deploymentInfo, Boolean needFileUpdate, Boolean fullBuildByDefault) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 307
+   at Kudu.Core.Deployment.FetchDeploymentManager.PerformDeployment(DeploymentInfoBase deploymentInfo, IDisposable tempDeployment, ChangeSet tempChangeSet, DeployStatusApiResult updateStatusObj) in /tmp/KuduLite/Kudu.Core/Deployment/FetchDeploymentManager.cs:line 247
+   at Kudu.Core.Deployment.FetchDeploymentManager.&lt;&gt;c__DisplayClass10_0.&lt;&lt;FetchDeploy&gt;b__0&gt;d.MoveNext() in /tmp/KuduLite/Kudu.Core/Deployment/FetchDeploymentManager.cs:line 148
+--- End of stack trace from previous location ---
+   at Kudu.Core.Deployment.FetchDeploymentManager.FetchDeploy(DeploymentInfoBase deployInfo, Boolean asyncRequested, Uri requestUri, String targetBranch) in /tmp/KuduLite/Kudu.Core/Deployment/FetchDeploymentManager.cs:line 141
+   at Kudu.Services.Deployment.PushDeploymentController.PushDeployAsync(ArtifactDeploymentInfo deploymentInfo, Boolean isAsync, HttpContext context, JObject requestJson) in /tmp/KuduLite/Kudu.Services/Deployment/PushDeploymentController.cs:line 769
+   at Kudu.Services.Deployment.PushDeploymentController.OneDeploy(String type, Boolean async, String path, Nullable`1 restart, Nullable`1 clean, Boolean ignoreStack, Boolean trackDeploymentProgress, Boolean trackStatus, Boolean reset) in /tmp/KuduLite/Kudu.Services/Deployment/PushDeploymentController.cs:line 612
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Kudu.Services.Web.Tracing.TraceMiddleware.Invoke(HttpContext context) in /tmp/KuduLite/Kudu.Services.Web/Tracing/TraceMiddleware.cs:line 111" innerText="Source directory does not exist or could not be found: /tmp/zipdeploy/extracted/node_modules/onetime" innerStackTrace="   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 252
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Infrastructure.FileSystemHelpers.CopyDirectoryRecursive(String sourceDirPath, String destinationDirPath, Boolean overwrite) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 248
+   at Kudu.Core.Deployment.Generator.OneDeployBuilder.Build(DeploymentContext context, CancellationToken token) in /tmp/KuduLite/Kudu.Core/Deployment/Generator/OneDeployBuilder.cs:line 92
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 762
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IRepository repository, DeploymentInfoBase deploymentInfo, DeploymentAnalytics deploymentAnalytics, Boolean fullBuildByDefault, CancellationToken cancellationToken) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 831
+   at Kudu.Core.Deployment.DeploymentManager.DeployAsync(IRepository repository, ChangeSet changeSet, String deployer, Boolean clean, DeploymentInfoBase deploymentInfo, Boolean needFileUpdate, Boolean fullBuildByDefault) in /tmp/KuduLite/Kudu.Core/Deployment/DeploymentManager.cs:line 266" /><!-- duration: 36ms -->
+      <step title="Incoming Request" date="2025-01-24T19:28:12.965" url="/Error?type=zip" method="POST" type="request" pid="87,1,30" Accept="*/*" Host="winter-frontend-app.scm.azurewebsites.net" User-Agent="AZURECLI/2.68.0 (HOMEBREW)" Accept-Encoding="gzip, deflate" Authorization="Bas..." Cache-Control="no-cache" Content-Type="application/octet-stream" Content-Length="90146491" x-ms-client-request-id="016858f2-da89-11ef-baa3-5669ec64a9e2" x-ms-artifact-checksum="bf2292e94d0cec27623e8a906ae21145f711419399a96f819c1af0c9e6ed7976" X-ARR-LOG-ID="016858f2-da89-11ef-baa3-5669ec64a9e2" CLIENT-IP="89.64.57.58:21079" X-Client-IP="89.64.57.58" X-SITE-DEPLOYMENT-ID="winter-frontend-app" WAS-DEFAULT-HOSTNAME="winter-frontend-app.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/publish?type=zip" X-Client-Port="21079" >
+        <step title="Outgoing response" date="2025-01-24T19:28:14.554" type="response" statusCode="400" statusText="BadRequest" /><!-- duration: 28ms -->
+      </step><!-- duration: 1684ms -->

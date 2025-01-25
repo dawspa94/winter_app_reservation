@@ -1,0 +1,17 @@
+<step title="Incoming Request" date="2025-01-24T17:09:52.972" instance="3d3e86" url="/api/zipdeploy?isAsync=true" method="POST" type="request" pid="80,1,5" Accept="*/*" Host="winter-frontend-app.scm.azurewebsites.net" User-Agent="AZURECLI/2.68.0 (HOMEBREW)" Accept-Encoding="gzip, deflate" Authorization="Bas..." Cache-Control="no-cache" Content-Type="application/octet-stream" Content-Length="1018485" x-ms-client-request-id="f5f34b66-da75-11ef-8f35-5669ec64a9e2" x-ms-artifact-checksum="d8d35a59a3eec0f383900b3e3fd361eca69aea53fc2396981a227fccf5c234bc" X-ARR-LOG-ID="f5f34b66-da75-11ef-8f35-5669ec64a9e2" CLIENT-IP="89.64.57.58:21082" X-Client-IP="89.64.57.58" X-SITE-DEPLOYMENT-ID="winter-frontend-app" WAS-DEFAULT-HOSTNAME="winter-frontend-app.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/zipdeploy?isAsync=true" X-Client-Port="21082" >
+  <step title="ZipPushDeploy" date="2025-01-24T17:09:53.676" >
+    <step title="ZipDeploy. Extract zip." date="2025-01-24T17:09:53.694" /><!-- duration: 6ms -->
+    <step title="None repository commit" date="2025-01-24T17:09:53.714" >
+      <step title="Commit id: 34a84909-c8d7-4337-a3c2-602733637938" date="2025-01-24T17:09:53.720" Message="N/A" AuthorName="N/A" AuthorEmail="N/A" /><!-- duration: 6ms -->
+    </step><!-- duration: 18ms -->
+    <step title="Starting PushDeployAsync" date="2025-01-24T17:09:53.738" /><!-- duration: 5ms -->
+    <step title="Writing artifact to /tmp/zipdeploy/260584f8-44a3-4ddf-83f1-6323be7d513d.zip" date="2025-01-24T17:09:53.769" >
+      <step title="Writing request body to artifacts at /tmp/zipdeploy/260584f8-44a3-4ddf-83f1-6323be7d513d.zip" date="2025-01-24T17:09:53.778" /><!-- duration: 6ms -->
+    </step><!-- duration: 147ms -->
+    <step title="Start deployment in the background" date="2025-01-24T17:09:53.942" >
+      <step title="Acquiring Deployment Lock" date="2025-01-24T17:09:54.067" /><!-- duration: 10ms -->
+      <step title="Acquired Deployment Lock" date="2025-01-24T17:09:54.130" /><!-- duration: 6ms -->
+    </step><!-- duration: 337ms -->
+  </step><!-- duration: 624ms -->
+  <step title="Outgoing response" date="2025-01-24T17:09:54.344" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 12ms -->
+</step><!-- duration: 1394ms -->

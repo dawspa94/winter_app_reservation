@@ -79,7 +79,7 @@ const Login = () => {
         navigate('/admin');
       } else {
         // Jeśli nie, wysyłamy żądanie do backendu
-        const response = await axios.post('http://localhost:4000/api/auth/login', { login, password });
+        const response = await axios.post('https://nazwa-backend-app.azurewebsites.net/api/auth/login', { login, password });
         console.log('Zalogowano pomyślnie:', response.data);
         // Zapisz token w localStorage lub w stanie aplikacji
         localStorage.setItem('token', response.data.token);

@@ -1,0 +1,4 @@
+2025-01-24T20:37:57  Fetching changes.
+2025-01-24T20:37:57    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/4590913b-0460-43bd-b4ab-74cc83e64357.zip (0.97 MB) to /tmp/zipdeploy/extracted
+2025-01-24T20:38:01  Updating submodules.
+2025-01-24T20:38:01  Preparing deployment for commit id '358056c2-5'.

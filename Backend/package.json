@@ -1,8 +1,9 @@
 {
-  "name": "ski-rental-backend",
+  "name": "nazwa-backend-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,5 +20,9 @@
     "nodemailer": "^6.9.16",
     "sequelize": "^6.37.5",
     "tedious": "^18.6.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   }
 }

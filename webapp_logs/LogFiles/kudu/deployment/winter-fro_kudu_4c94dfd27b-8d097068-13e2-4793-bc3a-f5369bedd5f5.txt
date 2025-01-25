@@ -1,0 +1,13 @@
+2025-01-24T19:28:05  Fetching changes.
+2025-01-24T19:28:05    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/40e58cf3-4b2d-491e-a899-dfff920dc7e8.zip (0.97 MB) to /tmp/zipdeploy/extracted
+2025-01-24T19:28:29  Updating submodules.
+2025-01-24T19:28:29  Preparing deployment for commit id '9ad914b2-9'.
+2025-01-24T19:28:30  PreDeployment: context.CleanOutputPath False
+2025-01-24T19:28:30  PreDeployment: context.OutputPath /home/site/wwwroot
+2025-01-24T19:28:30  Running build. Project type: OneDeploy
+2025-01-24T19:28:30  Copying the manifest
+2025-01-24T19:28:31  Incrementally deploying to /home/site/wwwroot
+2025-01-24T19:28:32  Build completed succesfully.
+2025-01-24T19:28:33  Running post deployment command(s)...
+2025-01-24T19:28:33  Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path
+2025-01-24T19:28:33  Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy

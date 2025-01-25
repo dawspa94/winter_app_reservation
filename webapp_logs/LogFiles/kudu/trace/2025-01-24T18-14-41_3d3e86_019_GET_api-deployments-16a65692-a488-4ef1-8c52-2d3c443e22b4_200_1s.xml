@@ -1,0 +1,4 @@
+<step title="Incoming Request" date="2025-01-24T18:14:41.214" instance="3d3e86" url="/api/deployments/16a65692-a488-4ef1-8c52-2d3c443e22b4" method="GET" type="request" pid="87,1,41" Host="winter-frontend-app.scm.azurewebsites.net" Authorization="Bas..." X-ARR-LOG-ID="9b284d02-ac4f-43d9-8b12-5bcba729b738" CLIENT-IP="20.105.232.53:8578" X-Client-IP="20.105.232.53" X-SITE-DEPLOYMENT-ID="winter-frontend-app" WAS-DEFAULT-HOSTNAME="winter-frontend-app.scm.azurewebsites.net" X-MS-PLATFORM-INTERNAL="True" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/16a65692-a488-4ef1-8c52-2d3c443e22b4" X-Client-Port="8578" >
+  <step title="DeploymentService.GetResult" date="2025-01-24T18:14:41.283" /><!-- duration: 450ms -->
+  <step title="Outgoing response" date="2025-01-24T18:14:41.743" type="response" statusCode="200" statusText="OK" /><!-- duration: 12ms -->
+</step><!-- duration: 550ms -->

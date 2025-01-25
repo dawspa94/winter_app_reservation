@@ -1,0 +1,15 @@
+2025-01-24T18:14:39.5307209Z,Updating submodules.,90bbe65a-2239-463d-8cbc-8b613db60683,0
+2025-01-24T18:14:40.7014635Z,Preparing deployment for commit id '16a65692-a'.,c739df6f-7343-4926-be29-ca3b9306c7ee,0
+2025-01-24T18:14:41.1427919Z,PreDeployment: context.CleanOutputPath False,62cc8b3e-985d-4478-a158-cf95f96df8f3,0
+2025-01-24T18:14:41.3372713Z,PreDeployment: context.OutputPath /home/site/wwwroot,f9dfa27d-f853-43fa-87d4-acffec14ec79,0
+2025-01-24T18:14:41.4825349Z,Generating deployment script.,42362079-6d58-47b3-ba50-5ca97560d069,0
+	2025-01-24T18:14:41.6253290Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "/tmp/zipdeploy/extracted" -o "/home/site/deployments/tools" --basic --sitePath "/tmp/zipdeploy/extracted"').,,0
+2025-01-24T18:14:42.0634597Z,Running deployment command...,fc8360cf-8122-4799-8ef1-b60aa074f298,0
+	2025-01-24T18:14:42.0756505Z,Command: "/home/site/deployments/tools/deploy.sh",,0
+	2025-01-24T18:14:42.3024077Z,Handling Basic Web Site deployment.,,0
+	2025-01-24T18:14:43.4462885Z,Kudu sync from: '/tmp/zipdeploy/extracted' to: '/home/site/wwwroot',,0
+	2025-01-24T18:14:43.5521735Z,Copying file: 'web.config',,0
+	2025-01-24T18:14:43.8313747Z,Finished successfully.,,0
+2025-01-24T18:14:43.9754027Z,Running post deployment command(s)...,ee567bed-98a5-4f09-ae1d-731780722961,0
+2025-01-24T18:14:44.1111919Z,Triggering recycle (preview mode disabled).,7866548f-5664-4c48-8d10-2835cd8e7a8a,0
+2025-01-24T18:14:44.3272261Z,Deployment successful. deployer = Push-Deployer deploymentPath = ZipDeploy. Extract zip.,71c53674-9d64-4c40-addc-9876add31693,0

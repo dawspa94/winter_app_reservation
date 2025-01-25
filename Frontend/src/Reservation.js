@@ -87,7 +87,7 @@ const Reservation = () => {
   const [confirmation, setConfirmation] = useState('');
 
   useEffect(() => {
-    axios.get(`http://localhost:4000/api/equipment/${id}`)
+    axios.get(`https://nazwa-backend-app.azurewebsites.net/api/equipment/${id}`)
       .then((response) => {
         setEquipment(response.data);
       })
@@ -110,7 +110,7 @@ const Reservation = () => {
 
   const handleSubmitReservation = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:4000/api/rentals', {
+    axios.post('https://nazwa-backend-app.azurewebsites.net/api/rentals', {
       FirstName: firstName,
       LastName: lastName,
       Email: email,

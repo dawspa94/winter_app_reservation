@@ -1,0 +1,160 @@
+2025-01-24T19:35:54.570081998Z    _____                               
+2025-01-24T19:35:54.570124398Z   /  _  \ __________ _________   ____  
+2025-01-24T19:35:54.570130598Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-01-24T19:35:54.570135098Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-01-24T19:35:54.570138998Z \____|__  /_____ \____/ |__|    \___  >
+2025-01-24T19:35:54.570143098Z         \/      \/                  \/ 
+2025-01-24T19:35:54.570146898Z A P P   S E R V I C E   O N   L I N U X
+2025-01-24T19:35:54.570151398Z 
+2025-01-24T19:35:54.570154998Z Documentation: http://aka.ms/webapp-linux
+2025-01-24T19:35:54.570158698Z NodeJS quickstart: https://aka.ms/node-qs
+2025-01-24T19:35:54.570162398Z NodeJS Version : v20.15.1
+2025-01-24T19:35:54.570166098Z Note: Any data outside '/home' is not persisted
+2025-01-24T19:35:54.570169898Z 
+2025-01-24T19:36:00.753103695Z Starting OpenBSD Secure Shell server: sshd.
+2025-01-24T19:36:00.789155444Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-01-24T19:36:01.114430584Z Starting periodic command scheduler: cron.
+2025-01-24T19:36:01.219609727Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-01-24T19:36:01.220781128Z Could not find operation ID in manifest. Generating an operation id...
+2025-01-24T19:36:01.220816228Z Build Operation ID: 03c9102c-7ced-4980-9977-3636551906fd
+2025-01-24T19:36:02.478354430Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-01-24T19:36:02.507271769Z Writing output script to '/opt/startup/startup.sh'
+2025-01-24T19:36:02.651652765Z Running #!/bin/sh
+2025-01-24T19:36:02.651688965Z 
+2025-01-24T19:36:02.651695465Z # Enter the source directory to make sure the script runs where the user expects
+2025-01-24T19:36:02.651700165Z cd "/home/site/wwwroot"
+2025-01-24T19:36:02.651704565Z 
+2025-01-24T19:36:02.651708865Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-01-24T19:36:02.651713565Z if [ -z "$PORT" ]; then
+2025-01-24T19:36:02.651717865Z 		export PORT=8080
+2025-01-24T19:36:02.651722965Z fi
+2025-01-24T19:36:02.651727165Z 
+2025-01-24T19:36:02.651731365Z npm start
+2025-01-24T19:36:06.878047108Z npm info using npm@10.7.0
+2025-01-24T19:36:06.897988702Z npm info using node@v20.15.1
+2025-01-24T19:36:12.804306004Z 
+2025-01-24T19:36:12.804352404Z > frontend@0.1.0 start
+2025-01-24T19:36:12.804361104Z > react-scripts start
+2025-01-24T19:36:12.804365904Z 
+2025-01-24T19:36:12.954414013Z sh: 1: react-scripts: not found
+
+2025-01-24T20:37:03.597462872Z    _____                               
+2025-01-24T20:37:03.597510172Z   /  _  \ __________ _________   ____  
+2025-01-24T20:37:03.597515972Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-01-24T20:37:03.597520372Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-01-24T20:37:03.597524272Z \____|__  /_____ \____/ |__|    \___  >
+2025-01-24T20:37:03.597528472Z         \/      \/                  \/ 
+2025-01-24T20:37:03.597532272Z A P P   S E R V I C E   O N   L I N U X
+2025-01-24T20:37:03.597535972Z 
+2025-01-24T20:37:03.597539672Z Documentation: http://aka.ms/webapp-linux
+2025-01-24T20:37:03.597543372Z NodeJS quickstart: https://aka.ms/node-qs
+2025-01-24T20:37:03.597547072Z NodeJS Version : v20.15.1
+2025-01-24T20:37:03.597550672Z Note: Any data outside '/home' is not persisted
+2025-01-24T20:37:03.597554472Z 
+2025-01-24T20:37:13.350389568Z Starting OpenBSD Secure Shell server: sshd.
+2025-01-24T20:37:13.427012453Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-01-24T20:37:14.564914215Z Starting periodic command scheduler: cron.
+2025-01-24T20:37:15.845692215Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-01-24T20:37:15.845740215Z Could not find operation ID in manifest. Generating an operation id...
+2025-01-24T20:37:15.845747615Z Build Operation ID: 374ddc4f-d89a-4409-9650-8b827a88bcbe
+2025-01-24T20:37:20.766215040Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-01-24T20:37:20.816009126Z Writing output script to '/opt/startup/startup.sh'
+2025-01-24T20:37:21.014275370Z Running #!/bin/sh
+2025-01-24T20:37:21.014310470Z 
+2025-01-24T20:37:21.014322270Z # Enter the source directory to make sure the script runs where the user expects
+2025-01-24T20:37:21.014326970Z cd "/home/site/wwwroot"
+2025-01-24T20:37:21.014331170Z 
+2025-01-24T20:37:21.014335070Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-01-24T20:37:21.014339270Z if [ -z "$PORT" ]; then
+2025-01-24T20:37:21.014343570Z 		export PORT=8080
+2025-01-24T20:37:21.014348170Z fi
+2025-01-24T20:37:21.014352170Z 
+2025-01-24T20:37:21.024011686Z npm start
+2025-01-24T20:37:30.557904895Z npm info using npm@10.7.0
+2025-01-24T20:37:30.576826644Z npm info using node@v20.15.1
+2025-01-24T20:37:53.330996114Z 
+2025-01-24T20:37:53.336935315Z > frontend@0.1.0 start
+2025-01-24T20:37:53.365412421Z > react-scripts start
+2025-01-24T20:37:53.365449821Z 
+2025-01-24T20:37:53.606475475Z sh: 1: react-scripts: not found
+
+2025-01-24T20:58:57.660810694Z    _____                               
+2025-01-24T20:58:57.660850294Z   /  _  \ __________ _________   ____  
+2025-01-24T20:58:57.660855694Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-01-24T20:58:57.660859394Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-01-24T20:58:57.660862894Z \____|__  /_____ \____/ |__|    \___  >
+2025-01-24T20:58:57.660866794Z         \/      \/                  \/ 
+2025-01-24T20:58:57.660870294Z A P P   S E R V I C E   O N   L I N U X
+2025-01-24T20:58:57.660873594Z 
+2025-01-24T20:58:57.660876794Z Documentation: http://aka.ms/webapp-linux
+2025-01-24T20:58:57.660879994Z NodeJS quickstart: https://aka.ms/node-qs
+2025-01-24T20:58:57.660883294Z NodeJS Version : v20.15.1
+2025-01-24T20:58:57.660886494Z Note: Any data outside '/home' is not persisted
+2025-01-24T20:58:57.660889994Z 
+2025-01-24T20:59:09.740789560Z Starting OpenBSD Secure Shell server: sshd.
+2025-01-24T20:59:09.789087872Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-01-24T20:59:10.061972969Z Starting periodic command scheduler: cron.
+2025-01-24T20:59:10.241488257Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-01-24T20:59:10.248797689Z Could not find operation ID in manifest. Generating an operation id...
+2025-01-24T20:59:10.249880893Z Build Operation ID: 11723851-5822-4d35-8bbb-c020430dc2b0
+2025-01-24T20:59:10.937050508Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-01-24T20:59:10.945642346Z Writing output script to '/opt/startup/startup.sh'
+2025-01-24T20:59:11.010998632Z Running #!/bin/sh
+2025-01-24T20:59:11.011060533Z 
+2025-01-24T20:59:11.011066333Z # Enter the source directory to make sure the script runs where the user expects
+2025-01-24T20:59:11.011070533Z cd "/home/site/wwwroot"
+2025-01-24T20:59:11.011074233Z 
+2025-01-24T20:59:11.011078133Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-01-24T20:59:11.011082433Z if [ -z "$PORT" ]; then
+2025-01-24T20:59:11.011086233Z 		export PORT=8080
+2025-01-24T20:59:11.011090233Z fi
+2025-01-24T20:59:11.011093833Z 
+2025-01-24T20:59:11.013234142Z npm start
+2025-01-24T20:59:14.999443207Z npm info using npm@10.7.0
+2025-01-24T20:59:15.001040312Z npm info using node@v20.15.1
+2025-01-24T20:59:24.884544339Z 
+2025-01-24T20:59:24.986330261Z > frontend@0.1.0 start
+2025-01-24T20:59:24.986361361Z > react-scripts start
+2025-01-24T20:59:24.986366561Z 
+2025-01-24T20:59:25.278582573Z sh: 1: react-scripts: not found
+
+2025-01-24T21:01:27.372024930Z    _____                               
+2025-01-24T21:01:27.372066030Z   /  _  \ __________ _________   ____  
+2025-01-24T21:01:27.372071930Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2025-01-24T21:01:27.372076030Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2025-01-24T21:01:27.372080230Z \____|__  /_____ \____/ |__|    \___  >
+2025-01-24T21:01:27.372084330Z         \/      \/                  \/ 
+2025-01-24T21:01:27.372088230Z A P P   S E R V I C E   O N   L I N U X
+2025-01-24T21:01:27.372092030Z 
+2025-01-24T21:01:27.372095530Z Documentation: http://aka.ms/webapp-linux
+2025-01-24T21:01:27.372099230Z NodeJS quickstart: https://aka.ms/node-qs
+2025-01-24T21:01:27.372102830Z NodeJS Version : v20.15.1
+2025-01-24T21:01:27.372106830Z Note: Any data outside '/home' is not persisted
+2025-01-24T21:01:27.372110630Z 
+2025-01-24T21:01:31.988659825Z Starting OpenBSD Secure Shell server: sshd.
+2025-01-24T21:01:32.008062189Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2025-01-24T21:01:32.386121136Z Starting periodic command scheduler: cron.
+2025-01-24T21:01:32.566817831Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2025-01-24T21:01:32.576070962Z Could not find operation ID in manifest. Generating an operation id...
+2025-01-24T21:01:32.576095162Z Build Operation ID: cb0d85c5-d909-45a1-b2a8-d92ffe942a97
+2025-01-24T21:01:33.579108369Z Environment Variables for Application Insight's IPA Codeless Configuration exists..
+2025-01-24T21:01:33.587343896Z Writing output script to '/opt/startup/startup.sh'
+2025-01-24T21:01:33.625953923Z Running #!/bin/sh
+2025-01-24T21:01:33.626063124Z 
+2025-01-24T21:01:33.626069424Z # Enter the source directory to make sure the script runs where the user expects
+2025-01-24T21:01:33.626073824Z cd "/home/site/wwwroot"
+2025-01-24T21:01:33.626077824Z 
+2025-01-24T21:01:33.626081924Z export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+2025-01-24T21:01:33.626094224Z if [ -z "$PORT" ]; then
+2025-01-24T21:01:33.626098624Z 		export PORT=8080
+2025-01-24T21:01:33.626103224Z fi
+2025-01-24T21:01:33.626107124Z 
+2025-01-24T21:01:33.626111024Z npm start
+2025-01-24T21:01:35.548842959Z npm info using npm@10.7.0
+2025-01-24T21:01:35.556281184Z npm info using node@v20.15.1
+2025-01-24T21:01:41.580084801Z 
+2025-01-24T21:01:41.580682801Z > frontend@0.1.0 start
+2025-01-24T21:01:41.580696301Z > react-scripts start
+2025-01-24T21:01:41.580701101Z 
+2025-01-24T21:01:41.778323038Z sh: 1: react-scripts: not found
+
