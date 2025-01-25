@@ -1,0 +1,1595 @@
+2025-01-24T17:09:32.9438211Z Container start method called.
+2025-01-24T17:09:32.9827967Z Establishing network.
+2025-01-24T17:09:32.9836198Z Pulling image: appsvc/kudulite:buster_20241021.3.tuxprod.
+2025-01-24T17:09:39.0690182Z Image appsvc/kudulite:buster_20241021.3.tuxprod is pulled from registry 10.1.0.6:13209
+2025-01-24T17:09:39.0699256Z Container is starting.
+2025-01-24T17:09:39.0716418Z Establishing user namespace if not established already.
+2025-01-24T17:09:39.0723277Z Establishing network if not established already.
+2025-01-24T17:09:39.0785132Z Mounting volumes.
+2025-01-24T17:09:39.0820798Z Nested mountpoint 
+2025-01-24T17:09:39.1093328Z Nested mountpoint volatile/logs
+2025-01-24T17:09:39.1188805Z Nested mountpoint 
+2025-01-24T17:09:39.1459388Z Nested mountpoint 
+2025-01-24T17:09:39.2021950Z Nested mountpoint 
+2025-01-24T17:09:39.3508346Z Creating container.
+2025-01-24T17:09:39.3521210Z Creating pipes for streaming container io.
+2025-01-24T17:09:39.3531777Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stdout_b1ea3bea5e8145238d7ec4883c747e89.
+2025-01-24T17:09:39.3595303Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stdout_b1ea3bea5e8145238d7ec4883c747e89.
+2025-01-24T17:09:39.3601319Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stdout_b1ea3bea5e8145238d7ec4883c747e89 for reading in non-blocking mode.
+2025-01-24T17:09:39.3602237Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stdout_b1ea3bea5e8145238d7ec4883c747e89.
+2025-01-24T17:09:39.3602649Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stdout_b1ea3bea5e8145238d7ec4883c747e89.
+2025-01-24T17:09:39.3603069Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stderr_057566400c7740a4838403e5205bcc05.
+2025-01-24T17:09:39.3603790Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stderr_057566400c7740a4838403e5205bcc05.
+2025-01-24T17:09:39.3604125Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stderr_057566400c7740a4838403e5205bcc05 for reading in non-blocking mode.
+2025-01-24T17:09:39.3604640Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stderr_057566400c7740a4838403e5205bcc05.
+2025-01-24T17:09:39.3605241Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_7069a18e/stderr_057566400c7740a4838403e5205bcc05.
+2025-01-24T17:09:39.3794014Z Creating container with image: appsvc/kudulite:buster_20241021.3.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:buster_20241021.3.tuxprod
+2025-01-24T17:09:40.7871138Z Starting container: winter-frontend-app_kudu_7069a18e.
+2025-01-24T17:09:40.9701518Z Starting watchers and probes.
+2025-01-24T17:09:41.0079782Z Starting metrics collection.
+2025-01-24T17:09:41.0295762Z Container is running.
+2025-01-24T17:09:41.3572345Z Container start method finished after 8340 ms.
+2025-01-24T17:10:15.0066746Z Container start method called.
+2025-01-24T17:10:15.0740829Z Establishing network.
+2025-01-24T17:10:15.0809303Z Pulling image: appsvc/node:16-lts_20230908.2.tuxprod.
+2025-01-24T17:10:18.8472719Z Container is starting.
+2025-01-24T17:10:18.8485998Z Establishing user namespace if not established already.
+2025-01-24T17:10:18.8493661Z Establishing network if not established already.
+2025-01-24T17:10:18.8503838Z Mounting volumes.
+2025-01-24T17:10:18.8570631Z Nested mountpoint 
+2025-01-24T17:10:18.8856918Z Nested mountpoint volatile/logs
+2025-01-24T17:10:18.9330017Z Nested mountpoint 
+2025-01-24T17:10:18.9629530Z Nested mountpoint 
+2025-01-24T17:10:18.9742613Z Nested mountpoint 
+2025-01-24T17:10:19.0599921Z Nested mountpoint 
+2025-01-24T17:10:21.6570303Z Creating container.
+2025-01-24T17:10:21.6669374Z Creating pipes for streaming container io.
+2025-01-24T17:10:21.6748860Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_3b3451b6/stdout_7616d20998e7418782d6d1632111ad9a.
+2025-01-24T17:10:21.6767028Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_3b3451b6/stdout_7616d20998e7418782d6d1632111ad9a.
+2025-01-24T17:10:21.7242493Z Opening named pipe /podr/container/pipe/winter-frontend-app_3b3451b6/stdout_7616d20998e7418782d6d1632111ad9a for reading in non-blocking mode.
+2025-01-24T17:10:21.7313385Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_3b3451b6/stdout_7616d20998e7418782d6d1632111ad9a.
+2025-01-24T17:10:21.7321924Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_3b3451b6/stdout_7616d20998e7418782d6d1632111ad9a.
+2025-01-24T17:10:21.7337748Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_3b3451b6/stderr_e4d79d323d32454db007d498bed31c79.
+2025-01-24T17:10:21.7410989Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_3b3451b6/stderr_e4d79d323d32454db007d498bed31c79.
+2025-01-24T17:10:21.7418453Z Opening named pipe /podr/container/pipe/winter-frontend-app_3b3451b6/stderr_e4d79d323d32454db007d498bed31c79 for reading in non-blocking mode.
+2025-01-24T17:10:21.7428041Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_3b3451b6/stderr_e4d79d323d32454db007d498bed31c79.
+2025-01-24T17:10:21.7436218Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_3b3451b6/stderr_e4d79d323d32454db007d498bed31c79.
+2025-01-24T17:10:21.7502557Z Creating container with image: appsvc/node:16-lts_20230908.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:16-lts_20230908.2.tuxprod
+2025-01-24T17:10:23.2006307Z Starting container: winter-frontend-app_3b3451b6.
+2025-01-24T17:10:23.4719244Z Starting watchers and probes.
+2025-01-24T17:10:23.4900335Z Starting metrics collection.
+2025-01-24T17:10:23.4913707Z Container is running.
+2025-01-24T17:10:23.8346271Z Container start method finished after 8742 ms.
+2025-01-24T17:10:36.1921303Z Site startup probe succeeded after 12.2516328 seconds.
+2025-01-24T17:10:36.4406646Z Site started.
+2025-01-24T17:10:36.6329636Z Site is running with deployment version: 34a84909-c8d7-4337-a3c2-602733637938
+2025-01-24T17:30:32.6172798Z Container start method called.
+2025-01-24T17:30:32.6262990Z Establishing network.
+2025-01-24T17:30:32.6270980Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T17:30:33.0595069Z Container start method called.
+2025-01-24T17:30:33.0678477Z Establishing network.
+2025-01-24T17:30:33.0682166Z Pulling image: appsvc/kudulite:bookworm_20241021.3.tuxprod.
+2025-01-24T17:35:52.5181165Z Image appsvc/node:20-lts_20240819.2.tuxprod is pulled from registry 10.1.0.5:13209
+2025-01-24T17:35:52.5722602Z Container is starting.
+2025-01-24T17:35:52.6013857Z Establishing user namespace if not established already.
+2025-01-24T17:35:52.6223789Z Establishing network if not established already.
+2025-01-24T17:35:52.6339089Z Mounting volumes.
+2025-01-24T17:35:52.6879019Z Nested mountpoint 
+2025-01-24T17:35:52.8184246Z Nested mountpoint volatile/logs
+2025-01-24T17:35:52.8728430Z Nested mountpoint 
+2025-01-24T17:35:53.1437417Z Nested mountpoint 
+2025-01-24T17:35:53.1804933Z Nested mountpoint 
+2025-01-24T17:35:53.3761147Z Nested mountpoint 
+2025-01-24T17:35:58.7633511Z Creating container.
+2025-01-24T17:35:58.7701704Z Creating pipes for streaming container io.
+2025-01-24T17:35:58.7704345Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_574901a6/stdout_ada18581472d441c8de6a66d72a60fd0.
+2025-01-24T17:35:58.7713432Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_574901a6/stdout_ada18581472d441c8de6a66d72a60fd0.
+2025-01-24T17:35:58.7897883Z Opening named pipe /podr/container/pipe/winter-frontend-app_574901a6/stdout_ada18581472d441c8de6a66d72a60fd0 for reading in non-blocking mode.
+2025-01-24T17:35:58.7912695Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_574901a6/stdout_ada18581472d441c8de6a66d72a60fd0.
+2025-01-24T17:35:58.7918396Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_574901a6/stdout_ada18581472d441c8de6a66d72a60fd0.
+2025-01-24T17:35:58.8192265Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_574901a6/stderr_730f60a9b1bb43e0a0e1bd627ad356e7.
+2025-01-24T17:35:58.8279008Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_574901a6/stderr_730f60a9b1bb43e0a0e1bd627ad356e7.
+2025-01-24T17:35:58.8281278Z Opening named pipe /podr/container/pipe/winter-frontend-app_574901a6/stderr_730f60a9b1bb43e0a0e1bd627ad356e7 for reading in non-blocking mode.
+2025-01-24T17:35:58.8283622Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_574901a6/stderr_730f60a9b1bb43e0a0e1bd627ad356e7.
+2025-01-24T17:35:58.8369459Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_574901a6/stderr_730f60a9b1bb43e0a0e1bd627ad356e7.
+2025-01-24T17:35:58.8378130Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T17:36:21.9818854Z Image appsvc/kudulite:bookworm_20241021.3.tuxprod is pulled from registry 10.1.0.6:13209
+2025-01-24T17:36:21.9825029Z Container is starting.
+2025-01-24T17:36:21.9931423Z Establishing user namespace if not established already.
+2025-01-24T17:36:22.0009182Z Establishing network if not established already.
+2025-01-24T17:36:22.0017539Z Mounting volumes.
+2025-01-24T17:36:22.0025441Z Nested mountpoint 
+2025-01-24T17:36:22.0419724Z Nested mountpoint volatile/logs
+2025-01-24T17:36:22.0882469Z Nested mountpoint 
+2025-01-24T17:36:22.1174870Z Nested mountpoint 
+2025-01-24T17:36:22.3744698Z Nested mountpoint 
+2025-01-24T17:36:22.4777893Z Creating container.
+2025-01-24T17:36:22.4784407Z Creating pipes for streaming container io.
+2025-01-24T17:36:22.4789521Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stdout_0ac1b97a39024098a90883643d3a48e6.
+2025-01-24T17:36:22.4797049Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stdout_0ac1b97a39024098a90883643d3a48e6.
+2025-01-24T17:36:22.4802449Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stdout_0ac1b97a39024098a90883643d3a48e6 for reading in non-blocking mode.
+2025-01-24T17:36:22.4874958Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stdout_0ac1b97a39024098a90883643d3a48e6.
+2025-01-24T17:36:22.4875624Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stdout_0ac1b97a39024098a90883643d3a48e6.
+2025-01-24T17:36:22.4876130Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stderr_95c6a34f83fc453eb416c692ed1d3e37.
+2025-01-24T17:36:22.4877142Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stderr_95c6a34f83fc453eb416c692ed1d3e37.
+2025-01-24T17:36:22.4877516Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stderr_95c6a34f83fc453eb416c692ed1d3e37 for reading in non-blocking mode.
+2025-01-24T17:36:22.4878072Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stderr_95c6a34f83fc453eb416c692ed1d3e37.
+2025-01-24T17:36:22.4878448Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_14dc941f/stderr_95c6a34f83fc453eb416c692ed1d3e37.
+2025-01-24T17:36:22.4879027Z Creating container with image: appsvc/kudulite:bookworm_20241021.3.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bookworm_20241021.3.tuxprod
+2025-01-24T17:36:41.6222386Z Starting container: winter-frontend-app_574901a6.
+2025-01-24T17:36:41.9345068Z Starting watchers and probes.
+2025-01-24T17:36:42.1001448Z Starting metrics collection.
+2025-01-24T17:36:42.1356721Z Container is running.
+2025-01-24T17:36:42.8124426Z Container start method finished after 370185 ms.
+2025-01-24T17:37:04.6258424Z Site startup probe succeeded after 21.7085786 seconds.
+2025-01-24T17:37:05.6408670Z Site started.
+2025-01-24T17:37:05.8026816Z Site is running with deployment version: 34a84909-c8d7-4337-a3c2-602733637938
+2025-01-24T17:37:26.2976217Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T17:37:27.3670600Z Stop and delete container. Retry count = 0
+2025-01-24T17:37:27.3757365Z Stopping container: winter-frontend-app_3b3451b6.
+2025-01-24T17:37:28.4765699Z Deleting container: winter-frontend-app_3b3451b6. Retry count = 0
+2025-01-24T17:37:29.4187520Z Container spec TerminationMessagePolicy  path 
+2025-01-24T17:37:29.4269150Z Container is terminated. Total time elapsed: 3120 ms.
+2025-01-24T17:38:26.2480308Z Starting container: winter-frontend-app_kudu_14dc941f.
+2025-01-24T17:38:26.8250506Z Starting watchers and probes.
+2025-01-24T17:38:26.8270514Z Starting metrics collection.
+2025-01-24T17:38:26.8946469Z Container is running.
+2025-01-24T17:38:27.1320546Z Container start method finished after 474072 ms.
+2025-01-24T17:39:06.9647947Z Container is terminating. Grace period: 0 seconds.
+2025-01-24T17:39:07.2582189Z Stop and delete container. Retry count = 0
+2025-01-24T17:39:07.2695118Z Stopping container: winter-frontend-app_kudu_7069a18e.
+2025-01-24T17:39:08.0619861Z Deleting container: winter-frontend-app_kudu_7069a18e. Retry count = 0
+2025-01-24T17:39:09.3774765Z Container spec TerminationMessagePolicy  path 
+2025-01-24T17:39:09.3794969Z Container is terminated. Total time elapsed: 2412 ms.
+2025-01-24T17:48:09.6842535Z Container start method called.
+2025-01-24T17:48:09.7043686Z Establishing network.
+2025-01-24T17:48:09.7222580Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T17:48:15.1137250Z Container is starting.
+2025-01-24T17:48:15.1414437Z Establishing user namespace if not established already.
+2025-01-24T17:48:15.1484625Z Establishing network if not established already.
+2025-01-24T17:48:15.1490539Z Mounting volumes.
+2025-01-24T17:48:15.1960655Z Nested mountpoint 
+2025-01-24T17:48:15.2444518Z Nested mountpoint volatile/logs
+2025-01-24T17:48:15.3188849Z Nested mountpoint 
+2025-01-24T17:48:15.3863272Z Nested mountpoint 
+2025-01-24T17:48:15.4057467Z Nested mountpoint 
+2025-01-24T17:48:15.5262568Z Nested mountpoint 
+2025-01-24T17:48:19.6335295Z Creating container.
+2025-01-24T17:48:19.6350407Z Creating pipes for streaming container io.
+2025-01-24T17:48:19.6430970Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_c36f4469/stdout_e9b22619a9154945854226f286a14c64.
+2025-01-24T17:48:19.6444393Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_c36f4469/stdout_e9b22619a9154945854226f286a14c64.
+2025-01-24T17:48:19.6453394Z Opening named pipe /podr/container/pipe/winter-frontend-app_c36f4469/stdout_e9b22619a9154945854226f286a14c64 for reading in non-blocking mode.
+2025-01-24T17:48:19.6541274Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_c36f4469/stdout_e9b22619a9154945854226f286a14c64.
+2025-01-24T17:48:19.6726470Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_c36f4469/stdout_e9b22619a9154945854226f286a14c64.
+2025-01-24T17:48:19.6816797Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_c36f4469/stderr_40aff326cba34166914ef5dcf6b34643.
+2025-01-24T17:48:19.6820703Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_c36f4469/stderr_40aff326cba34166914ef5dcf6b34643.
+2025-01-24T17:48:19.6822977Z Opening named pipe /podr/container/pipe/winter-frontend-app_c36f4469/stderr_40aff326cba34166914ef5dcf6b34643 for reading in non-blocking mode.
+2025-01-24T17:48:19.7005466Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_c36f4469/stderr_40aff326cba34166914ef5dcf6b34643.
+2025-01-24T17:48:19.7008408Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_c36f4469/stderr_40aff326cba34166914ef5dcf6b34643.
+2025-01-24T17:48:19.7027367Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T17:48:22.1438123Z Starting container: winter-frontend-app_c36f4469.
+2025-01-24T17:48:22.6508295Z Starting watchers and probes.
+2025-01-24T17:48:22.6787374Z Starting metrics collection.
+2025-01-24T17:48:22.7075659Z Container is running.
+2025-01-24T17:48:23.5856936Z Container start method finished after 13893 ms.
+2025-01-24T17:48:39.2855446Z Site startup probe succeeded after 15.5471202 seconds.
+2025-01-24T17:48:39.7780208Z Site started.
+2025-01-24T17:48:39.9035024Z Site is running with deployment version: d6944e5b-e539-4c14-a419-f2e11690d17b
+2025-01-24T17:49:00.1982373Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T17:49:00.7250374Z Stop and delete container. Retry count = 0
+2025-01-24T17:49:00.7443301Z Stopping container: winter-frontend-app_574901a6.
+2025-01-24T17:49:02.5986637Z Deleting container: winter-frontend-app_574901a6. Retry count = 0
+2025-01-24T17:49:03.6696333Z Container spec TerminationMessagePolicy  path 
+2025-01-24T17:49:03.6908362Z Container is terminated. Total time elapsed: 3491 ms.
+2025-01-24T18:11:46.3953266Z Container start method called.
+2025-01-24T18:11:46.3989472Z Establishing network.
+2025-01-24T18:11:46.4000033Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T18:11:50.7380178Z Container is starting.
+2025-01-24T18:11:50.7458197Z Establishing user namespace if not established already.
+2025-01-24T18:11:50.7464042Z Establishing network if not established already.
+2025-01-24T18:11:50.7467728Z Mounting volumes.
+2025-01-24T18:11:50.7570598Z Nested mountpoint 
+2025-01-24T18:11:50.7738410Z Nested mountpoint volatile/logs
+2025-01-24T18:11:50.8039660Z Nested mountpoint 
+2025-01-24T18:11:50.8428065Z Nested mountpoint 
+2025-01-24T18:11:50.8601672Z Nested mountpoint 
+2025-01-24T18:11:50.8894128Z Nested mountpoint 
+2025-01-24T18:11:52.4813170Z Creating container.
+2025-01-24T18:11:52.4894815Z Creating pipes for streaming container io.
+2025-01-24T18:11:52.4906697Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_a629404a/stdout_482cae02af1d48cd9262db7af02177aa.
+2025-01-24T18:11:52.4996419Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_a629404a/stdout_482cae02af1d48cd9262db7af02177aa.
+2025-01-24T18:11:52.5086308Z Opening named pipe /podr/container/pipe/winter-frontend-app_a629404a/stdout_482cae02af1d48cd9262db7af02177aa for reading in non-blocking mode.
+2025-01-24T18:11:52.5109895Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_a629404a/stdout_482cae02af1d48cd9262db7af02177aa.
+2025-01-24T18:11:52.5193956Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_a629404a/stdout_482cae02af1d48cd9262db7af02177aa.
+2025-01-24T18:11:52.5272651Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_a629404a/stderr_2d1053fc24cb48fc9d23c97b0a38cb10.
+2025-01-24T18:11:52.5279418Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_a629404a/stderr_2d1053fc24cb48fc9d23c97b0a38cb10.
+2025-01-24T18:11:52.5286113Z Opening named pipe /podr/container/pipe/winter-frontend-app_a629404a/stderr_2d1053fc24cb48fc9d23c97b0a38cb10 for reading in non-blocking mode.
+2025-01-24T18:11:52.5300403Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_a629404a/stderr_2d1053fc24cb48fc9d23c97b0a38cb10.
+2025-01-24T18:11:52.5309394Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_a629404a/stderr_2d1053fc24cb48fc9d23c97b0a38cb10.
+2025-01-24T18:11:52.5375920Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T18:11:53.3538188Z Starting container: winter-frontend-app_a629404a.
+2025-01-24T18:11:53.4685042Z Starting watchers and probes.
+2025-01-24T18:11:53.4956498Z Starting metrics collection.
+2025-01-24T18:11:53.5290173Z Container is running.
+2025-01-24T18:11:53.7901962Z Container start method finished after 7393 ms.
+2025-01-24T18:12:09.1501163Z Site startup probe succeeded after 15.3413421 seconds.
+2025-01-24T18:12:09.3137351Z Site started.
+2025-01-24T18:12:09.3715723Z Site is running with deployment version: 2c51164c-cddb-451a-a9dc-e19d22e004ee
+2025-01-24T18:12:29.5192656Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T18:12:29.7186887Z Stop and delete container. Retry count = 0
+2025-01-24T18:12:29.7252036Z Stopping container: winter-frontend-app_c36f4469.
+2025-01-24T18:12:30.7532462Z Deleting container: winter-frontend-app_c36f4469. Retry count = 0
+2025-01-24T18:12:31.8705732Z Container spec TerminationMessagePolicy  path 
+2025-01-24T18:12:31.8787300Z Container is terminated. Total time elapsed: 2358 ms.
+2025-01-24T18:14:51.8332725Z Container start method called.
+2025-01-24T18:14:51.8512794Z Establishing network.
+2025-01-24T18:14:51.8531035Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T18:14:54.5739063Z Image appsvc/node:20-lts_20240819.2.tuxprod is pulled from registry 10.1.0.6:13209
+2025-01-24T18:14:54.5820459Z Container is starting.
+2025-01-24T18:14:54.5834925Z Establishing user namespace if not established already.
+2025-01-24T18:14:54.5906901Z Establishing network if not established already.
+2025-01-24T18:14:54.5916869Z Mounting volumes.
+2025-01-24T18:14:54.6019705Z Nested mountpoint 
+2025-01-24T18:14:54.6500461Z Nested mountpoint volatile/logs
+2025-01-24T18:14:54.6870566Z Nested mountpoint 
+2025-01-24T18:14:54.8010692Z Nested mountpoint 
+2025-01-24T18:14:54.9354214Z Nested mountpoint 
+2025-01-24T18:14:55.0434972Z Nested mountpoint 
+2025-01-24T18:14:56.5420008Z Creating container.
+2025-01-24T18:14:56.5426950Z Creating pipes for streaming container io.
+2025-01-24T18:14:56.5588818Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_95042d47/stdout_877859f37ac0400da883acae2b8bc511.
+2025-01-24T18:14:56.5822591Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_95042d47/stdout_877859f37ac0400da883acae2b8bc511.
+2025-01-24T18:14:56.5843752Z Opening named pipe /podr/container/pipe/winter-frontend-app_95042d47/stdout_877859f37ac0400da883acae2b8bc511 for reading in non-blocking mode.
+2025-01-24T18:14:56.5886986Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_95042d47/stdout_877859f37ac0400da883acae2b8bc511.
+2025-01-24T18:14:56.5903134Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_95042d47/stdout_877859f37ac0400da883acae2b8bc511.
+2025-01-24T18:14:56.5915782Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_95042d47/stderr_5bba6abfd10e4ff3a4d891b0805e5aed.
+2025-01-24T18:14:56.5988104Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_95042d47/stderr_5bba6abfd10e4ff3a4d891b0805e5aed.
+2025-01-24T18:14:56.6026478Z Opening named pipe /podr/container/pipe/winter-frontend-app_95042d47/stderr_5bba6abfd10e4ff3a4d891b0805e5aed for reading in non-blocking mode.
+2025-01-24T18:14:56.6082926Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_95042d47/stderr_5bba6abfd10e4ff3a4d891b0805e5aed.
+2025-01-24T18:14:56.6091564Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_95042d47/stderr_5bba6abfd10e4ff3a4d891b0805e5aed.
+2025-01-24T18:14:56.6104708Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T18:14:57.7770875Z Starting container: winter-frontend-app_95042d47.
+2025-01-24T18:14:57.9308068Z Starting watchers and probes.
+2025-01-24T18:14:57.9393946Z Starting metrics collection.
+2025-01-24T18:14:57.9413662Z Container is running.
+2025-01-24T18:14:59.8460703Z Container start method finished after 7995 ms.
+2025-01-24T18:15:08.1427903Z Site startup probe succeeded after 8.2673116 seconds.
+2025-01-24T18:15:08.3946958Z Site started.
+2025-01-24T18:15:08.4614734Z Site is running with deployment version: 16a65692-a488-4ef1-8c52-2d3c443e22b4
+2025-01-24T18:15:28.7395390Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T18:15:28.7998934Z Stop and delete container. Retry count = 0
+2025-01-24T18:15:28.8024849Z Stopping container: winter-frontend-app_a629404a.
+2025-01-24T18:15:29.0431493Z Deleting container: winter-frontend-app_a629404a. Retry count = 0
+2025-01-24T18:15:29.6627591Z Container spec TerminationMessagePolicy  path 
+2025-01-24T18:15:29.6689869Z Container is terminated. Total time elapsed: 926 ms.
+2025-01-24T18:34:13.7510770Z Container start method called.
+2025-01-24T18:34:13.7633218Z Establishing network.
+2025-01-24T18:34:13.7635935Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T18:34:16.6788694Z Container is starting.
+2025-01-24T18:34:16.6805718Z Establishing user namespace if not established already.
+2025-01-24T18:34:16.6818174Z Establishing network if not established already.
+2025-01-24T18:34:16.6885637Z Mounting volumes.
+2025-01-24T18:34:16.6933466Z Nested mountpoint 
+2025-01-24T18:34:16.7302743Z Nested mountpoint volatile/logs
+2025-01-24T18:34:16.7465812Z Nested mountpoint 
+2025-01-24T18:34:16.7685755Z Nested mountpoint 
+2025-01-24T18:34:16.7763656Z Nested mountpoint 
+2025-01-24T18:34:17.1213763Z Nested mountpoint 
+2025-01-24T18:34:18.6549107Z Creating container.
+2025-01-24T18:34:18.6572006Z Creating pipes for streaming container io.
+2025-01-24T18:34:18.6825149Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_0177dd3b/stdout_8ba8f88777f34cf28cc1c82af675933b.
+2025-01-24T18:34:18.6840242Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_0177dd3b/stdout_8ba8f88777f34cf28cc1c82af675933b.
+2025-01-24T18:34:18.6931884Z Opening named pipe /podr/container/pipe/winter-frontend-app_0177dd3b/stdout_8ba8f88777f34cf28cc1c82af675933b for reading in non-blocking mode.
+2025-01-24T18:34:18.6943412Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_0177dd3b/stdout_8ba8f88777f34cf28cc1c82af675933b.
+2025-01-24T18:34:18.6955399Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_0177dd3b/stdout_8ba8f88777f34cf28cc1c82af675933b.
+2025-01-24T18:34:18.7018160Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_0177dd3b/stderr_61c4d6d3058245ec9cbb9a00cf150f46.
+2025-01-24T18:34:18.7026407Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_0177dd3b/stderr_61c4d6d3058245ec9cbb9a00cf150f46.
+2025-01-24T18:34:18.7032753Z Opening named pipe /podr/container/pipe/winter-frontend-app_0177dd3b/stderr_61c4d6d3058245ec9cbb9a00cf150f46 for reading in non-blocking mode.
+2025-01-24T18:34:18.7038916Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_0177dd3b/stderr_61c4d6d3058245ec9cbb9a00cf150f46.
+2025-01-24T18:34:18.7043550Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_0177dd3b/stderr_61c4d6d3058245ec9cbb9a00cf150f46.
+2025-01-24T18:34:18.7117725Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T18:34:19.6537590Z Starting container: winter-frontend-app_0177dd3b.
+2025-01-24T18:34:19.7846908Z Starting watchers and probes.
+2025-01-24T18:34:19.8048671Z Starting metrics collection.
+2025-01-24T18:34:19.8534143Z Container is running.
+2025-01-24T18:34:20.4985739Z Container start method finished after 6745 ms.
+2025-01-24T18:34:31.8110103Z Site startup probe succeeded after 11.230244 seconds.
+2025-01-24T18:34:31.9544702Z Site started.
+2025-01-24T18:34:32.0515316Z Site is running with deployment version: 1c5434e0-5a3e-46d6-84e3-3cf9093f9040
+2025-01-24T18:34:52.3180509Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T18:34:52.4138210Z Stop and delete container. Retry count = 0
+2025-01-24T18:34:52.4338168Z Stopping container: winter-frontend-app_95042d47.
+2025-01-24T18:34:53.7176678Z Deleting container: winter-frontend-app_95042d47. Retry count = 0
+2025-01-24T18:34:54.0291618Z Container spec TerminationMessagePolicy  path 
+2025-01-24T18:34:54.0379005Z Container is terminated. Total time elapsed: 1718 ms.
+2025-01-24T18:35:55.4412435Z Container start method called.
+2025-01-24T18:35:55.4427106Z Establishing network.
+2025-01-24T18:35:55.4428361Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T18:35:57.2420057Z Container is starting.
+2025-01-24T18:35:57.2425482Z Establishing user namespace if not established already.
+2025-01-24T18:35:57.2433135Z Establishing network if not established already.
+2025-01-24T18:35:57.2437686Z Mounting volumes.
+2025-01-24T18:35:57.2538824Z Nested mountpoint 
+2025-01-24T18:35:57.2908114Z Nested mountpoint volatile/logs
+2025-01-24T18:35:57.3171926Z Nested mountpoint 
+2025-01-24T18:35:57.3555497Z Nested mountpoint 
+2025-01-24T18:35:57.3837770Z Nested mountpoint 
+2025-01-24T18:35:57.4696115Z Nested mountpoint 
+2025-01-24T18:35:59.8289800Z Creating container.
+2025-01-24T18:35:59.8934711Z Creating pipes for streaming container io.
+2025-01-24T18:35:59.8945276Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_9b0bc02f/stdout_f19862de16a147b493d88ae71d7aebd3.
+2025-01-24T18:35:59.8960393Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_9b0bc02f/stdout_f19862de16a147b493d88ae71d7aebd3.
+2025-01-24T18:35:59.9041085Z Opening named pipe /podr/container/pipe/winter-frontend-app_9b0bc02f/stdout_f19862de16a147b493d88ae71d7aebd3 for reading in non-blocking mode.
+2025-01-24T18:35:59.9054032Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_9b0bc02f/stdout_f19862de16a147b493d88ae71d7aebd3.
+2025-01-24T18:35:59.9064193Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_9b0bc02f/stdout_f19862de16a147b493d88ae71d7aebd3.
+2025-01-24T18:35:59.9129585Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_9b0bc02f/stderr_0aec6837bef7412d8753cb012641a096.
+2025-01-24T18:35:59.9147955Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_9b0bc02f/stderr_0aec6837bef7412d8753cb012641a096.
+2025-01-24T18:35:59.9161376Z Opening named pipe /podr/container/pipe/winter-frontend-app_9b0bc02f/stderr_0aec6837bef7412d8753cb012641a096 for reading in non-blocking mode.
+2025-01-24T18:35:59.9171076Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_9b0bc02f/stderr_0aec6837bef7412d8753cb012641a096.
+2025-01-24T18:35:59.9331516Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_9b0bc02f/stderr_0aec6837bef7412d8753cb012641a096.
+2025-01-24T18:35:59.9346578Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T18:36:00.7619837Z Starting container: winter-frontend-app_9b0bc02f.
+2025-01-24T18:36:00.9121798Z Starting watchers and probes.
+2025-01-24T18:36:00.9759648Z Starting metrics collection.
+2025-01-24T18:36:01.0038000Z Container is running.
+2025-01-24T18:36:01.8248487Z Container start method finished after 6380 ms.
+2025-01-24T18:36:13.4120905Z Site startup probe succeeded after 11.4255181 seconds.
+2025-01-24T18:36:13.5146267Z Site started.
+2025-01-24T18:36:13.5619132Z Site is running with deployment version: 4676f5d7-403e-4966-8873-c8ddf89c2066
+2025-01-24T18:36:33.5786566Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T18:36:33.6377940Z Stop and delete container. Retry count = 0
+2025-01-24T18:36:33.6406605Z Stopping container: winter-frontend-app_0177dd3b.
+2025-01-24T18:36:36.0695205Z Deleting container: winter-frontend-app_0177dd3b. Retry count = 0
+2025-01-24T18:36:37.3950122Z Container spec TerminationMessagePolicy  path 
+2025-01-24T18:36:37.4015212Z Container is terminated. Total time elapsed: 3799 ms.
+2025-01-24T18:53:31.2850909Z Container start method called.
+2025-01-24T18:53:31.2967630Z Establishing network.
+2025-01-24T18:53:31.3037568Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T18:53:37.1827786Z Container is starting.
+2025-01-24T18:53:37.1845836Z Establishing user namespace if not established already.
+2025-01-24T18:53:37.1859367Z Establishing network if not established already.
+2025-01-24T18:53:37.1924600Z Mounting volumes.
+2025-01-24T18:53:37.2037998Z Nested mountpoint 
+2025-01-24T18:53:37.2385671Z Nested mountpoint volatile/logs
+2025-01-24T18:53:37.3398220Z Nested mountpoint 
+2025-01-24T18:53:37.3585922Z Nested mountpoint 
+2025-01-24T18:53:37.3684800Z Nested mountpoint 
+2025-01-24T18:53:37.5123845Z Nested mountpoint 
+2025-01-24T18:53:38.8629438Z Creating container.
+2025-01-24T18:53:38.8825489Z Creating pipes for streaming container io.
+2025-01-24T18:53:38.8833186Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_aef0bdf4/stdout_3fdeb0f571394f32bc158a5039542e95.
+2025-01-24T18:53:38.8907552Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_aef0bdf4/stdout_3fdeb0f571394f32bc158a5039542e95.
+2025-01-24T18:53:38.8922620Z Opening named pipe /podr/container/pipe/winter-frontend-app_aef0bdf4/stdout_3fdeb0f571394f32bc158a5039542e95 for reading in non-blocking mode.
+2025-01-24T18:53:38.8934636Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_aef0bdf4/stdout_3fdeb0f571394f32bc158a5039542e95.
+2025-01-24T18:53:38.9005975Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_aef0bdf4/stdout_3fdeb0f571394f32bc158a5039542e95.
+2025-01-24T18:53:38.9016650Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_aef0bdf4/stderr_5e24e461aa75401ca6e1cf49e4c59b96.
+2025-01-24T18:53:38.9032791Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_aef0bdf4/stderr_5e24e461aa75401ca6e1cf49e4c59b96.
+2025-01-24T18:53:38.9102339Z Opening named pipe /podr/container/pipe/winter-frontend-app_aef0bdf4/stderr_5e24e461aa75401ca6e1cf49e4c59b96 for reading in non-blocking mode.
+2025-01-24T18:53:38.9104678Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_aef0bdf4/stderr_5e24e461aa75401ca6e1cf49e4c59b96.
+2025-01-24T18:53:38.9114210Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_aef0bdf4/stderr_5e24e461aa75401ca6e1cf49e4c59b96.
+2025-01-24T18:53:38.9203038Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T18:53:39.8772165Z Starting container: winter-frontend-app_aef0bdf4.
+2025-01-24T18:53:40.4121223Z Starting watchers and probes.
+2025-01-24T18:53:40.4339523Z Starting metrics collection.
+2025-01-24T18:53:40.4901976Z Container is running.
+2025-01-24T18:53:40.9392178Z Container start method finished after 9646 ms.
+2025-01-24T18:53:48.0821194Z Site startup probe succeeded after 7.0055143 seconds.
+2025-01-24T18:53:48.2195033Z Site started.
+2025-01-24T18:53:48.2738610Z Site is running with deployment version: 853f0ff9-1757-499c-805e-7b9d067219d9
+2025-01-24T18:54:08.3855412Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T18:54:08.5612048Z Stop and delete container. Retry count = 0
+2025-01-24T18:54:08.5799958Z Stopping container: winter-frontend-app_9b0bc02f.
+2025-01-24T18:54:09.0833757Z Deleting container: winter-frontend-app_9b0bc02f. Retry count = 0
+2025-01-24T18:54:09.7932005Z Container spec TerminationMessagePolicy  path 
+2025-01-24T18:54:09.8007839Z Container is terminated. Total time elapsed: 1409 ms.
+2025-01-24T19:21:43.6244910Z Container start method called.
+2025-01-24T19:21:43.6284268Z Establishing network.
+2025-01-24T19:21:43.6448741Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T19:21:46.4455939Z Container is starting.
+2025-01-24T19:21:46.4469809Z Establishing user namespace if not established already.
+2025-01-24T19:21:46.4541449Z Establishing network if not established already.
+2025-01-24T19:21:46.4552163Z Mounting volumes.
+2025-01-24T19:21:46.4636214Z Nested mountpoint 
+2025-01-24T19:21:46.5038545Z Nested mountpoint volatile/logs
+2025-01-24T19:21:46.5791903Z Nested mountpoint 
+2025-01-24T19:21:46.6109323Z Nested mountpoint 
+2025-01-24T19:21:46.6264318Z Nested mountpoint 
+2025-01-24T19:21:46.9549821Z Nested mountpoint 
+2025-01-24T19:21:48.6657953Z Creating container.
+2025-01-24T19:21:48.6765907Z Creating pipes for streaming container io.
+2025-01-24T19:21:48.6890654Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_149659b8/stdout_04720d410a8444548c79a95426767c11.
+2025-01-24T19:21:48.7093621Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_149659b8/stdout_04720d410a8444548c79a95426767c11.
+2025-01-24T19:21:48.7105995Z Opening named pipe /podr/container/pipe/winter-frontend-app_149659b8/stdout_04720d410a8444548c79a95426767c11 for reading in non-blocking mode.
+2025-01-24T19:21:48.7145746Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_149659b8/stdout_04720d410a8444548c79a95426767c11.
+2025-01-24T19:21:48.7151675Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_149659b8/stdout_04720d410a8444548c79a95426767c11.
+2025-01-24T19:21:48.7163292Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_149659b8/stderr_f4b05dd3d02947d3bb7ddfec9776f1d0.
+2025-01-24T19:21:48.7237941Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_149659b8/stderr_f4b05dd3d02947d3bb7ddfec9776f1d0.
+2025-01-24T19:21:48.7249109Z Opening named pipe /podr/container/pipe/winter-frontend-app_149659b8/stderr_f4b05dd3d02947d3bb7ddfec9776f1d0 for reading in non-blocking mode.
+2025-01-24T19:21:48.7262214Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_149659b8/stderr_f4b05dd3d02947d3bb7ddfec9776f1d0.
+2025-01-24T19:21:48.7271093Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_149659b8/stderr_f4b05dd3d02947d3bb7ddfec9776f1d0.
+2025-01-24T19:21:48.7433108Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T19:21:52.8578300Z Starting container: winter-frontend-app_149659b8.
+2025-01-24T19:21:52.9905611Z Starting watchers and probes.
+2025-01-24T19:21:53.0003019Z Starting metrics collection.
+2025-01-24T19:21:53.0180058Z Container is running.
+2025-01-24T19:21:54.3712278Z Container start method finished after 10745 ms.
+2025-01-24T19:22:07.6817280Z Site startup probe succeeded after 13.2404641 seconds.
+2025-01-24T19:22:07.8935948Z Site started.
+2025-01-24T19:22:07.9591773Z Site is running with deployment version: 9f989533-0a4c-4759-a9e4-99504b413b35
+2025-01-24T19:22:28.1867278Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T19:22:28.5542662Z Stop and delete container. Retry count = 0
+2025-01-24T19:22:28.5834147Z Stopping container: winter-frontend-app_aef0bdf4.
+2025-01-24T19:22:29.5249179Z Deleting container: winter-frontend-app_aef0bdf4. Retry count = 0
+2025-01-24T19:22:30.5563644Z Container spec TerminationMessagePolicy  path 
+2025-01-24T19:22:30.6532921Z Container is terminated. Total time elapsed: 2448 ms.
+2025-01-24T19:28:42.4837706Z Container start method called.
+2025-01-24T19:28:42.5506416Z Establishing network.
+2025-01-24T19:28:42.5522477Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T19:28:48.2714779Z Container is starting.
+2025-01-24T19:28:48.2786961Z Establishing user namespace if not established already.
+2025-01-24T19:28:48.2798616Z Establishing network if not established already.
+2025-01-24T19:28:48.2801979Z Mounting volumes.
+2025-01-24T19:28:48.2973175Z Nested mountpoint 
+2025-01-24T19:28:48.3245045Z Nested mountpoint volatile/logs
+2025-01-24T19:28:48.3708407Z Nested mountpoint 
+2025-01-24T19:28:48.4172171Z Nested mountpoint 
+2025-01-24T19:28:48.4337409Z Nested mountpoint 
+2025-01-24T19:28:48.4637733Z Nested mountpoint 
+2025-01-24T19:28:51.9904369Z Creating container.
+2025-01-24T19:28:52.0206351Z Creating pipes for streaming container io.
+2025-01-24T19:28:52.0228943Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_782e9cdc/stdout_8fde4c3a65d8453797fca28aaaed8616.
+2025-01-24T19:28:52.0321151Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_782e9cdc/stdout_8fde4c3a65d8453797fca28aaaed8616.
+2025-01-24T19:28:52.0344145Z Opening named pipe /podr/container/pipe/winter-frontend-app_782e9cdc/stdout_8fde4c3a65d8453797fca28aaaed8616 for reading in non-blocking mode.
+2025-01-24T19:28:52.0492999Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_782e9cdc/stdout_8fde4c3a65d8453797fca28aaaed8616.
+2025-01-24T19:28:52.0507956Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_782e9cdc/stdout_8fde4c3a65d8453797fca28aaaed8616.
+2025-01-24T19:28:52.0662497Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_782e9cdc/stderr_1bfdaa2196fa415b8146a51e6166d0a6.
+2025-01-24T19:28:52.0756725Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_782e9cdc/stderr_1bfdaa2196fa415b8146a51e6166d0a6.
+2025-01-24T19:28:52.0774602Z Opening named pipe /podr/container/pipe/winter-frontend-app_782e9cdc/stderr_1bfdaa2196fa415b8146a51e6166d0a6 for reading in non-blocking mode.
+2025-01-24T19:28:52.0786667Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_782e9cdc/stderr_1bfdaa2196fa415b8146a51e6166d0a6.
+2025-01-24T19:28:52.0789491Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_782e9cdc/stderr_1bfdaa2196fa415b8146a51e6166d0a6.
+2025-01-24T19:28:52.1030166Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T19:28:55.3261091Z Starting container: winter-frontend-app_782e9cdc.
+2025-01-24T19:28:55.8326795Z Starting watchers and probes.
+2025-01-24T19:28:55.9838796Z Starting metrics collection.
+2025-01-24T19:28:56.0252607Z Container is running.
+2025-01-24T19:28:56.4943853Z Container start method finished after 14009 ms.
+2025-01-24T19:29:22.4529311Z Container has finished running with exit code: 127.
+2025-01-24T19:29:22.4552299Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T19:29:22.4709934Z Stop and delete container. Retry count = 0
+2025-01-24T19:29:22.4728512Z Stopping container: winter-frontend-app_782e9cdc.
+2025-01-24T19:29:22.6630518Z Deleting container: winter-frontend-app_782e9cdc. Retry count = 0
+2025-01-24T19:29:24.6660755Z Container spec TerminationMessagePolicy  path 
+2025-01-24T19:29:24.6742672Z Container is terminated. Total time elapsed: 2218 ms.
+2025-01-24T19:29:24.6758291Z Site container: winter-frontend-app terminated during site startup.
+2025-01-24T19:29:24.6829758Z Site startup probe failed after 27.9758925 seconds.
+2025-01-24T19:29:24.8358955Z Failed to start site. Revert by stopping site.
+2025-01-24T19:29:28.6729688Z Site: winter-frontend-app stopped.
+2025-01-24T19:29:49.3826642Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T19:29:49.4306848Z Stop and delete container. Retry count = 0
+2025-01-24T19:29:49.4378404Z Stopping container: winter-frontend-app_149659b8.
+2025-01-24T19:29:49.7841796Z Deleting container: winter-frontend-app_149659b8. Retry count = 0
+2025-01-24T19:29:50.3004983Z Container spec TerminationMessagePolicy  path 
+2025-01-24T19:29:50.3016275Z Container is terminated. Total time elapsed: 916 ms.
+2025-01-24T19:31:55.0122725Z Container start method called.
+2025-01-24T19:31:55.0143537Z Establishing network.
+2025-01-24T19:31:55.0347714Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T19:31:57.4317140Z Container is starting.
+2025-01-24T19:31:57.4326009Z Establishing user namespace if not established already.
+2025-01-24T19:31:57.4337428Z Establishing network if not established already.
+2025-01-24T19:31:57.4400870Z Mounting volumes.
+2025-01-24T19:31:57.4425836Z Nested mountpoint 
+2025-01-24T19:31:57.4616856Z Nested mountpoint volatile/logs
+2025-01-24T19:31:57.4970201Z Nested mountpoint 
+2025-01-24T19:31:57.5364994Z Nested mountpoint 
+2025-01-24T19:31:57.5538553Z Nested mountpoint 
+2025-01-24T19:31:57.6346830Z Nested mountpoint 
+2025-01-24T19:31:59.2164357Z Creating container.
+2025-01-24T19:31:59.2373002Z Creating pipes for streaming container io.
+2025-01-24T19:31:59.2422412Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_e63f0e3e/stdout_b3e2722092164fb1a358b558e921df11.
+2025-01-24T19:31:59.2439624Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_e63f0e3e/stdout_b3e2722092164fb1a358b558e921df11.
+2025-01-24T19:31:59.2581660Z Opening named pipe /podr/container/pipe/winter-frontend-app_e63f0e3e/stdout_b3e2722092164fb1a358b558e921df11 for reading in non-blocking mode.
+2025-01-24T19:31:59.2595575Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_e63f0e3e/stdout_b3e2722092164fb1a358b558e921df11.
+2025-01-24T19:31:59.2611277Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_e63f0e3e/stdout_b3e2722092164fb1a358b558e921df11.
+2025-01-24T19:31:59.2683314Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_e63f0e3e/stderr_ad084ed86feb4a9ba9fec59738159bd0.
+2025-01-24T19:31:59.2744001Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_e63f0e3e/stderr_ad084ed86feb4a9ba9fec59738159bd0.
+2025-01-24T19:31:59.2747049Z Opening named pipe /podr/container/pipe/winter-frontend-app_e63f0e3e/stderr_ad084ed86feb4a9ba9fec59738159bd0 for reading in non-blocking mode.
+2025-01-24T19:31:59.2755262Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_e63f0e3e/stderr_ad084ed86feb4a9ba9fec59738159bd0.
+2025-01-24T19:31:59.2768176Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_e63f0e3e/stderr_ad084ed86feb4a9ba9fec59738159bd0.
+2025-01-24T19:31:59.2840427Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T19:32:00.1150792Z Starting container: winter-frontend-app_e63f0e3e.
+2025-01-24T19:32:00.4519505Z Starting watchers and probes.
+2025-01-24T19:32:00.4883455Z Starting metrics collection.
+2025-01-24T19:32:00.4974361Z Container is running.
+2025-01-24T19:32:01.0024763Z Container start method finished after 5988 ms.
+2025-01-24T19:32:30.0367504Z Container has finished running with exit code: 127.
+2025-01-24T19:32:30.0376477Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T19:32:30.0577918Z Stop and delete container. Retry count = 0
+2025-01-24T19:32:30.0582837Z Stopping container: winter-frontend-app_e63f0e3e.
+2025-01-24T19:32:30.2956170Z Deleting container: winter-frontend-app_e63f0e3e. Retry count = 0
+2025-01-24T19:32:31.8144741Z Container spec TerminationMessagePolicy  path 
+2025-01-24T19:32:31.8238935Z Container is terminated. Total time elapsed: 1775 ms.
+2025-01-24T19:32:31.8247920Z Site container: winter-frontend-app terminated during site startup.
+2025-01-24T19:32:31.8326250Z Site startup probe failed after 30.8049268 seconds.
+2025-01-24T19:32:31.8626370Z Failed to start site. Revert by stopping site.
+2025-01-24T19:32:32.6275606Z Site: winter-frontend-app will be blocked for 1 minutes till 01/24/2025 19:33:32
+2025-01-24T19:32:32.8257907Z Site: winter-frontend-app stopped.
+2025-01-24T19:32:39.053Z INFO  - 20-lts_20240819.2.tuxprod Pulling from appsvc/node
+2025-01-24T19:32:39.072Z INFO  - ca4e5d672725 Pulling fs layer
+2025-01-24T19:32:39.133Z INFO  - 7289fbcc356a Pulling fs layer
+2025-01-24T19:32:39.162Z INFO  - fa59f5014120 Pulling fs layer
+2025-01-24T19:32:39.163Z INFO  - ba76ec5fa96a Pulling fs layer
+2025-01-24T19:32:39.170Z INFO  - c5aa5b09edb5 Pulling fs layer
+2025-01-24T19:32:39.172Z INFO  - 333cd8ad6a3b Pulling fs layer
+2025-01-24T19:32:39.174Z INFO  - 475335986fc5 Pulling fs layer
+2025-01-24T19:32:39.179Z INFO  - 67157399a877 Pulling fs layer
+2025-01-24T19:32:39.181Z INFO  - 9abb2b94ab40 Pulling fs layer
+2025-01-24T19:32:39.184Z INFO  - 26712510d395 Pulling fs layer
+2025-01-24T19:32:39.189Z INFO  - f2a6c51c8f06 Pulling fs layer
+2025-01-24T19:32:39.191Z INFO  - d914df855007 Pulling fs layer
+2025-01-24T19:32:39.193Z INFO  - 29359c335761 Pulling fs layer
+2025-01-24T19:32:39.199Z INFO  - 47f632600f4b Pulling fs layer
+2025-01-24T19:32:39.200Z INFO  - 00ef0d8b6193 Pulling fs layer
+2025-01-24T19:32:39.202Z INFO  - e9352d9a3da2 Pulling fs layer
+2025-01-24T19:32:39.204Z INFO  - 659fa1d04cf4 Pulling fs layer
+2025-01-24T19:32:39.211Z INFO  - 550ba9f795cb Pulling fs layer
+2025-01-24T19:32:39.218Z INFO  - 73921fba6922 Pulling fs layer
+2025-01-24T19:32:39.220Z INFO  - 48cc111e7319 Pulling fs layer
+2025-01-24T19:32:39.222Z INFO  - 8fd2bc79bd34 Pulling fs layer
+2025-01-24T19:32:39.227Z INFO  - 16f05635b4f9 Pulling fs layer
+2025-01-24T19:32:39.229Z INFO  - 6b9e720fb0c5 Pulling fs layer
+2025-01-24T19:32:39.231Z INFO  - 7d7766e2e20f Pulling fs layer
+2025-01-24T19:32:39.233Z INFO  - 2d337a27955a Pulling fs layer
+2025-01-24T19:32:39.234Z INFO  - c9320690d821 Pulling fs layer
+2025-01-24T19:32:39.236Z INFO  - db86a19b33d3 Pulling fs layer
+2025-01-24T19:32:39.238Z INFO  - ed4061982610 Pulling fs layer
+2025-01-24T19:32:39.247Z INFO  - ee85922174bb Pulling fs layer
+2025-01-24T19:32:39.249Z INFO  - ed46a3c05246 Pulling fs layer
+2025-01-24T19:32:39.251Z INFO  - 11864b4bc796 Pulling fs layer
+2025-01-24T19:32:39.253Z INFO  - bc26ac73b1e1 Pulling fs layer
+2025-01-24T19:32:39.256Z INFO  - eafde1013eb0 Pulling fs layer
+2025-01-24T19:32:39.258Z INFO  - 16903e1d445c Pulling fs layer
+2025-01-24T19:32:39.262Z INFO  - 3843a0ac72d3 Pulling fs layer
+2025-01-24T19:32:39.264Z INFO  - 8e788ef6b9cc Pulling fs layer
+2025-01-24T19:32:39.266Z INFO  - b17a520406dc Pulling fs layer
+2025-01-24T19:32:39.270Z INFO  - 8fd2bc79bd34 Waiting
+2025-01-24T19:32:39.272Z INFO  - 16f05635b4f9 Waiting
+2025-01-24T19:32:39.277Z INFO  - 6b9e720fb0c5 Waiting
+2025-01-24T19:32:39.285Z INFO  - 7d7766e2e20f Waiting
+2025-01-24T19:32:39.287Z INFO  - 2d337a27955a Waiting
+2025-01-24T19:32:39.289Z INFO  - c9320690d821 Waiting
+2025-01-24T19:32:39.294Z INFO  - db86a19b33d3 Waiting
+2025-01-24T19:32:39.296Z INFO  - ed4061982610 Waiting
+2025-01-24T19:32:39.298Z INFO  - ee85922174bb Waiting
+2025-01-24T19:32:39.304Z INFO  - ed46a3c05246 Waiting
+2025-01-24T19:32:39.308Z INFO  - 11864b4bc796 Waiting
+2025-01-24T19:32:39.309Z INFO  - bc26ac73b1e1 Waiting
+2025-01-24T19:32:39.311Z INFO  - eafde1013eb0 Waiting
+2025-01-24T19:32:39.312Z INFO  - 16903e1d445c Waiting
+2025-01-24T19:32:39.314Z INFO  - 3843a0ac72d3 Waiting
+2025-01-24T19:32:39.316Z INFO  - 8e788ef6b9cc Waiting
+2025-01-24T19:32:39.318Z INFO  - b17a520406dc Waiting
+2025-01-24T19:32:39.511Z INFO  - d914df855007 Downloading 35KB / 1MB
+2025-01-24T19:32:39.724Z INFO  - f2a6c51c8f06 Downloading 35KB / 1MB
+2025-01-24T19:32:39.903Z INFO  - c5aa5b09edb5 Downloading 35KB / 1MB
+2025-01-24T19:32:39.923Z INFO  - 475335986fc5 Downloading 3KB / 10KB
+2025-01-24T19:32:39.939Z INFO  - ba76ec5fa96a Downloading 400B / 400B
+2025-01-24T19:32:39.941Z INFO  - 29359c335761 Downloading 3KB / 3KB
+2025-01-24T19:32:39.951Z INFO  - 47f632600f4b Downloading 93B / 93B
+2025-01-24T19:32:39.958Z INFO  - 26712510d395 Downloading 10KB / 10KB
+2025-01-24T19:32:39.996Z INFO  - 333cd8ad6a3b Downloading 49KB / 49KB
+2025-01-24T19:32:39.998Z INFO  - 67157399a877 Downloading 23KB / 23KB
+2025-01-24T19:32:39.999Z INFO  - 475335986fc5 Downloading 10KB / 10KB
+2025-01-24T19:32:40.005Z INFO  - ba76ec5fa96a Verifying Checksum
+2025-01-24T19:32:40.007Z INFO  - ba76ec5fa96a Download complete
+2025-01-24T19:32:40.015Z INFO  - 29359c335761 Verifying Checksum
+2025-01-24T19:32:40.017Z INFO  - 29359c335761 Download complete
+2025-01-24T19:32:40.034Z INFO  - 47f632600f4b Verifying Checksum
+2025-01-24T19:32:40.036Z INFO  - 47f632600f4b Download complete
+2025-01-24T19:32:40.065Z INFO  - 26712510d395 Verifying Checksum
+2025-01-24T19:32:40.069Z INFO  - 26712510d395 Download complete
+2025-01-24T19:32:40.092Z INFO  - 333cd8ad6a3b Verifying Checksum
+2025-01-24T19:32:40.111Z INFO  - 333cd8ad6a3b Download complete
+2025-01-24T19:32:40.113Z INFO  - 67157399a877 Verifying Checksum
+2025-01-24T19:32:40.162Z INFO  - 67157399a877 Download complete
+2025-01-24T19:32:40.169Z INFO  - 475335986fc5 Verifying Checksum
+2025-01-24T19:32:40.171Z INFO  - 475335986fc5 Download complete
+2025-01-24T19:32:40.206Z INFO  - 9abb2b94ab40 Downloading 176KB / 480KB
+2025-01-24T19:32:40.210Z INFO  - d914df855007 Downloading 175KB / 1MB
+2025-01-24T19:32:40.225Z INFO  - 9abb2b94ab40 Downloading 480KB / 480KB
+2025-01-24T19:32:40.228Z INFO  - fa59f5014120 Downloading 382KB / 4MB
+2025-01-24T19:32:40.235Z INFO  - c5aa5b09edb5 Downloading 208KB / 1MB
+2025-01-24T19:32:40.237Z INFO  - 73921fba6922 Downloading 143B / 143B
+2025-01-24T19:32:40.238Z INFO  - 73921fba6922 Verifying Checksum
+2025-01-24T19:32:40.253Z INFO  - 73921fba6922 Download complete
+2025-01-24T19:32:40.256Z INFO  - 7289fbcc356a Downloading 732KB / 34MB
+2025-01-24T19:32:40.281Z INFO  - 48cc111e7319 Downloading 131KB / 5MB
+2025-01-24T19:32:40.290Z INFO  - 659fa1d04cf4 Downloading 508KB / 10MB
+2025-01-24T19:32:40.293Z INFO  - 9abb2b94ab40 Verifying Checksum
+2025-01-24T19:32:40.309Z INFO  - 9abb2b94ab40 Download complete
+2025-01-24T19:32:40.311Z INFO  - d914df855007 Downloading 1MB / 1MB
+2025-01-24T19:32:40.329Z INFO  - c5aa5b09edb5 Downloading 720KB / 1MB
+2025-01-24T19:32:40.347Z INFO  - 6b9e720fb0c5 Downloading 138B / 138B
+2025-01-24T19:32:40.377Z INFO  - 8fd2bc79bd34 Downloading 947B / 947B
+2025-01-24T19:32:40.413Z INFO  - 16f05635b4f9 Downloading 1KB / 1KB
+2025-01-24T19:32:40.415Z INFO  - c9320690d821 Downloading 1KB / 1KB
+2025-01-24T19:32:40.441Z INFO  - f2a6c51c8f06 Verifying Checksum
+2025-01-24T19:32:40.460Z INFO  - f2a6c51c8f06 Download complete
+2025-01-24T19:32:40.463Z INFO  - d914df855007 Verifying Checksum
+2025-01-24T19:32:40.479Z INFO  - d914df855007 Download complete
+2025-01-24T19:32:40.481Z INFO  - 6b9e720fb0c5 Verifying Checksum
+2025-01-24T19:32:40.490Z INFO  - 6b9e720fb0c5 Download complete
+2025-01-24T19:32:40.497Z INFO  - 8fd2bc79bd34 Verifying Checksum
+2025-01-24T19:32:40.499Z INFO  - 8fd2bc79bd34 Download complete
+2025-01-24T19:32:40.511Z INFO  - 16f05635b4f9 Verifying Checksum
+2025-01-24T19:32:40.526Z INFO  - 16f05635b4f9 Download complete
+2025-01-24T19:32:40.536Z INFO  - c9320690d821 Verifying Checksum
+2025-01-24T19:32:40.538Z INFO  - c9320690d821 Download complete
+2025-01-24T19:32:40.546Z INFO  - ca4e5d672725 Downloading 1014KB / 47MB
+2025-01-24T19:32:40.547Z INFO  - db86a19b33d3 Downloading 152B / 152B
+2025-01-24T19:32:40.550Z INFO  - 2d337a27955a Downloading 1KB / 1KB
+2025-01-24T19:32:40.555Z INFO  - c5aa5b09edb5 Verifying Checksum
+2025-01-24T19:32:40.559Z INFO  - c5aa5b09edb5 Download complete
+2025-01-24T19:32:40.565Z INFO  - ed4061982610 Downloading 9KB / 9KB
+2025-01-24T19:32:40.566Z INFO  - ed4061982610 Verifying Checksum
+2025-01-24T19:32:40.568Z INFO  - ed4061982610 Download complete
+2025-01-24T19:32:40.575Z INFO  - 550ba9f795cb Downloading 1MB / 17MB
+2025-01-24T19:32:40.577Z INFO  - e9352d9a3da2 Downloading 959KB / 45MB
+2025-01-24T19:32:40.584Z INFO  - 7289fbcc356a Downloading 1MB / 34MB
+2025-01-24T19:32:40.586Z INFO  - 48cc111e7319 Downloading 703KB / 5MB
+2025-01-24T19:32:40.594Z INFO  - db86a19b33d3 Verifying Checksum
+2025-01-24T19:32:40.738Z INFO  - db86a19b33d3 Download complete
+2025-01-24T19:32:40.748Z INFO  - 2d337a27955a Verifying Checksum
+2025-01-24T19:32:40.750Z INFO  - 2d337a27955a Download complete
+2025-01-24T19:32:40.751Z INFO  - ed46a3c05246 Downloading 271B / 271B
+2025-01-24T19:32:40.767Z INFO  - ee85922174bb Downloading 1KB / 1KB
+2025-01-24T19:32:40.769Z INFO  - 3843a0ac72d3 Downloading 1KB / 1KB
+2025-01-24T19:32:40.786Z INFO  - ed46a3c05246 Verifying Checksum
+2025-01-24T19:32:40.788Z INFO  - ed46a3c05246 Download complete
+2025-01-24T19:32:40.797Z INFO  - ee85922174bb Verifying Checksum
+2025-01-24T19:32:40.805Z INFO  - ee85922174bb Download complete
+2025-01-24T19:32:40.807Z INFO  - 3843a0ac72d3 Verifying Checksum
+2025-01-24T19:32:40.815Z INFO  - 3843a0ac72d3 Download complete
+2025-01-24T19:32:40.817Z INFO  - fa59f5014120 Downloading 1MB / 4MB
+2025-01-24T19:32:40.824Z INFO  - 7d7766e2e20f Downloading 536KB / 68MB
+2025-01-24T19:32:40.826Z INFO  - 00ef0d8b6193 Downloading 954KB / 44MB
+2025-01-24T19:32:40.835Z INFO  - eafde1013eb0 Downloading 126B / 126B
+2025-01-24T19:32:40.837Z INFO  - 16903e1d445c Downloading 419B / 419B
+2025-01-24T19:32:40.844Z INFO  - bc26ac73b1e1 Downloading 93B / 93B
+2025-01-24T19:32:40.845Z INFO  - 11864b4bc796 Downloading 299B / 299B
+2025-01-24T19:32:40.853Z INFO  - eafde1013eb0 Verifying Checksum
+2025-01-24T19:32:40.855Z INFO  - eafde1013eb0 Download complete
+2025-01-24T19:32:40.858Z INFO  - 16903e1d445c Verifying Checksum
+2025-01-24T19:32:40.872Z INFO  - 16903e1d445c Download complete
+2025-01-24T19:32:40.874Z INFO  - bc26ac73b1e1 Verifying Checksum
+2025-01-24T19:32:40.883Z INFO  - bc26ac73b1e1 Download complete
+2025-01-24T19:32:40.885Z INFO  - 11864b4bc796 Verifying Checksum
+2025-01-24T19:32:40.920Z INFO  - 11864b4bc796 Download complete
+2025-01-24T19:32:40.922Z INFO  - 550ba9f795cb Downloading 2MB / 17MB
+2025-01-24T19:32:40.930Z INFO  - 48cc111e7319 Downloading 2MB / 5MB
+2025-01-24T19:32:40.932Z INFO  - 8e788ef6b9cc Downloading 124KB / 1MB
+2025-01-24T19:32:40.939Z INFO  - fa59f5014120 Downloading 3MB / 4MB
+2025-01-24T19:32:41.047Z INFO  - fa59f5014120 Downloading 3MB / 4MB
+2025-01-24T19:32:41.058Z INFO  - ca4e5d672725 Downloading 1MB / 47MB
+2025-01-24T19:32:41.065Z INFO  - 659fa1d04cf4 Downloading 2MB / 10MB
+2025-01-24T19:32:41.075Z INFO  - 7d7766e2e20f Downloading 1MB / 68MB
+2025-01-24T19:32:41.077Z INFO  - b17a520406dc Downloading 133B / 133B
+2025-01-24T19:32:41.084Z INFO  - 550ba9f795cb Downloading 2MB / 17MB
+2025-01-24T19:32:41.247Z INFO  - 00ef0d8b6193 Downloading 1MB / 44MB
+2025-01-24T19:32:41.250Z INFO  - b17a520406dc Verifying Checksum
+2025-01-24T19:32:41.267Z INFO  - b17a520406dc Download complete
+2025-01-24T19:32:41.269Z INFO  - 550ba9f795cb Downloading 3MB / 17MB
+2025-01-24T19:32:41.276Z INFO  - e9352d9a3da2 Downloading 2MB / 45MB
+2025-01-24T19:32:41.278Z INFO  - 7289fbcc356a Downloading 3MB / 34MB
+2025-01-24T19:32:41.287Z INFO  - fa59f5014120 Downloading 3MB / 4MB
+2025-01-24T19:32:41.289Z INFO  - fa59f5014120 Downloading 4MB / 4MB
+2025-01-24T19:32:41.295Z INFO  - fa59f5014120 Verifying Checksum
+2025-01-24T19:32:41.297Z INFO  - fa59f5014120 Download complete
+2025-01-24T19:32:41.555Z INFO  - 8e788ef6b9cc Downloading 1MB / 1MB
+2025-01-24T19:32:41.573Z INFO  - 8e788ef6b9cc Downloading 1MB / 1MB
+2025-01-24T19:32:41.575Z INFO  - 659fa1d04cf4 Downloading 4MB / 10MB
+2025-01-24T19:32:41.583Z INFO  - 8e788ef6b9cc Verifying Checksum
+2025-01-24T19:32:41.591Z INFO  - 8e788ef6b9cc Download complete
+2025-01-24T19:32:41.593Z INFO  - 550ba9f795cb Downloading 4MB / 17MB
+2025-01-24T19:32:41.733Z INFO  - ca4e5d672725 Downloading 2MB / 47MB
+2025-01-24T19:32:41.763Z INFO  - 7289fbcc356a Downloading 4MB / 34MB
+2025-01-24T19:32:41.771Z INFO  - 659fa1d04cf4 Downloading 4MB / 10MB
+2025-01-24T19:32:41.773Z INFO  - e9352d9a3da2 Downloading 3MB / 45MB
+2025-01-24T19:32:41.788Z INFO  - 00ef0d8b6193 Downloading 2MB / 44MB
+2025-01-24T19:32:41.790Z INFO  - 7289fbcc356a Downloading 4MB / 34MB
+2025-01-24T19:32:41.798Z INFO  - 7d7766e2e20f Downloading 4MB / 68MB
+2025-01-24T19:32:41.809Z INFO  - 659fa1d04cf4 Downloading 4MB / 10MB
+2025-01-24T19:32:41.811Z INFO  - 48cc111e7319 Verifying Checksum
+2025-01-24T19:32:41.818Z INFO  - 48cc111e7319 Download complete
+2025-01-24T19:32:41.856Z INFO  - ca4e5d672725 Downloading 3MB / 47MB
+2025-01-24T19:32:41.865Z INFO  - 7d7766e2e20f Downloading 4MB / 68MB
+2025-01-24T19:32:41.876Z INFO  - 00ef0d8b6193 Downloading 3MB / 44MB
+2025-01-24T19:32:41.969Z INFO  - e9352d9a3da2 Downloading 4MB / 45MB
+2025-01-24T19:32:42.171Z INFO  - 7289fbcc356a Downloading 5MB / 34MB
+2025-01-24T19:32:42.182Z INFO  - 7d7766e2e20f Downloading 5MB / 68MB
+2025-01-24T19:32:42.262Z INFO  - ca4e5d672725 Downloading 4MB / 47MB
+2025-01-24T19:32:42.267Z INFO  - 7289fbcc356a Downloading 6MB / 34MB
+2025-01-24T19:32:42.290Z INFO  - 550ba9f795cb Downloading 6MB / 17MB
+2025-01-24T19:32:42.417Z INFO  - 7289fbcc356a Downloading 6MB / 34MB
+2025-01-24T19:32:42.424Z INFO  - 00ef0d8b6193 Downloading 6MB / 44MB
+2025-01-24T19:32:42.426Z INFO  - 550ba9f795cb Downloading 7MB / 17MB
+2025-01-24T19:32:42.433Z INFO  - 7d7766e2e20f Downloading 6MB / 68MB
+2025-01-24T19:32:42.435Z INFO  - e9352d9a3da2 Downloading 7MB / 45MB
+2025-01-24T19:32:42.520Z INFO  - 550ba9f795cb Downloading 7MB / 17MB
+2025-01-24T19:32:42.530Z INFO  - 7289fbcc356a Downloading 7MB / 34MB
+2025-01-24T19:32:42.549Z INFO  - 7d7766e2e20f Downloading 7MB / 68MB
+2025-01-24T19:32:42.661Z INFO  - 550ba9f795cb Downloading 8MB / 17MB
+2025-01-24T19:32:42.668Z INFO  - 00ef0d8b6193 Downloading 7MB / 44MB
+2025-01-24T19:32:42.770Z INFO  - 7d7766e2e20f Downloading 8MB / 68MB
+2025-01-24T19:32:42.813Z INFO  - 7289fbcc356a Downloading 8MB / 34MB
+2025-01-24T19:32:42.815Z INFO  - 00ef0d8b6193 Downloading 8MB / 44MB
+2025-01-24T19:32:42.909Z INFO  - ca4e5d672725 Downloading 5MB / 47MB
+2025-01-24T19:32:43.037Z INFO  - 659fa1d04cf4 Verifying Checksum
+2025-01-24T19:32:43.043Z INFO  - 659fa1d04cf4 Download complete
+2025-01-24T19:32:43.141Z INFO  - 7289fbcc356a Downloading 8MB / 34MB
+2025-01-24T19:32:43.167Z INFO  - e9352d9a3da2 Downloading 10MB / 45MB
+2025-01-24T19:32:43.196Z INFO  - ca4e5d672725 Downloading 7MB / 47MB
+2025-01-24T19:32:43.252Z INFO  - 00ef0d8b6193 Downloading 9MB / 44MB
+2025-01-24T19:32:43.366Z INFO  - 7289fbcc356a Downloading 9MB / 34MB
+2025-01-24T19:32:43.384Z INFO  - 550ba9f795cb Downloading 9MB / 17MB
+2025-01-24T19:32:43.386Z INFO  - 7289fbcc356a Downloading 10MB / 34MB
+2025-01-24T19:32:43.486Z INFO  - 7d7766e2e20f Downloading 10MB / 68MB
+2025-01-24T19:32:43.638Z INFO  - 550ba9f795cb Downloading 10MB / 17MB
+2025-01-24T19:32:43.734Z INFO  - 7289fbcc356a Downloading 11MB / 34MB
+2025-01-24T19:32:43.741Z INFO  - ca4e5d672725 Downloading 9MB / 47MB
+2025-01-24T19:32:43.865Z INFO  - 550ba9f795cb Downloading 10MB / 17MB
+2025-01-24T19:32:43.874Z INFO  - 7d7766e2e20f Downloading 11MB / 68MB
+2025-01-24T19:32:43.895Z INFO  - 550ba9f795cb Downloading 11MB / 17MB
+2025-01-24T19:32:43.901Z INFO  - e9352d9a3da2 Downloading 12MB / 45MB
+2025-01-24T19:32:43.904Z INFO  - 00ef0d8b6193 Downloading 10MB / 44MB
+2025-01-24T19:32:43.929Z INFO  - 7289fbcc356a Downloading 11MB / 34MB
+2025-01-24T19:32:44.271Z INFO  - 00ef0d8b6193 Downloading 11MB / 44MB
+2025-01-24T19:32:44.279Z INFO  - 7d7766e2e20f Downloading 12MB / 68MB
+2025-01-24T19:32:44.288Z INFO  - 7289fbcc356a Downloading 13MB / 34MB
+2025-01-24T19:32:44.291Z INFO  - 550ba9f795cb Downloading 12MB / 17MB
+2025-01-24T19:32:44.318Z INFO  - 550ba9f795cb Downloading 13MB / 17MB
+2025-01-24T19:32:44.345Z INFO  - 7289fbcc356a Downloading 13MB / 34MB
+2025-01-24T19:32:44.393Z INFO  - e9352d9a3da2 Downloading 13MB / 45MB
+2025-01-24T19:32:44.420Z INFO  - 7d7766e2e20f Downloading 14MB / 68MB
+2025-01-24T19:32:44.436Z INFO  - ca4e5d672725 Downloading 12MB / 47MB
+2025-01-24T19:32:44.438Z INFO  - 550ba9f795cb Downloading 13MB / 17MB
+2025-01-24T19:32:44.567Z INFO  - 00ef0d8b6193 Downloading 12MB / 44MB
+2025-01-24T19:32:44.840Z INFO  - 550ba9f795cb Downloading 14MB / 17MB
+2025-01-24T19:32:44.857Z INFO  - ca4e5d672725 Downloading 13MB / 47MB
+2025-01-24T19:32:44.876Z INFO  - 7289fbcc356a Downloading 14MB / 34MB
+2025-01-24T19:32:44.972Z INFO  - 00ef0d8b6193 Downloading 13MB / 44MB
+2025-01-24T19:32:45.088Z INFO  - 7d7766e2e20f Downloading 16MB / 68MB
+2025-01-24T19:32:45.104Z INFO  - 00ef0d8b6193 Downloading 14MB / 44MB
+2025-01-24T19:32:45.106Z INFO  - e9352d9a3da2 Downloading 14MB / 45MB
+2025-01-24T19:32:45.123Z INFO  - 550ba9f795cb Downloading 14MB / 17MB
+2025-01-24T19:32:45.227Z INFO  - 7289fbcc356a Downloading 15MB / 34MB
+2025-01-24T19:32:45.229Z INFO  - ca4e5d672725 Downloading 15MB / 47MB
+2025-01-24T19:32:45.245Z INFO  - 550ba9f795cb Downloading 15MB / 17MB
+2025-01-24T19:32:45.324Z INFO  - 00ef0d8b6193 Downloading 15MB / 44MB
+2025-01-24T19:32:45.433Z INFO  - 550ba9f795cb Downloading 17MB / 17MB
+2025-01-24T19:32:45.435Z INFO  - 7289fbcc356a Downloading 16MB / 34MB
+2025-01-24T19:32:45.452Z INFO  - e9352d9a3da2 Downloading 14MB / 45MB
+2025-01-24T19:32:45.455Z INFO  - 550ba9f795cb Verifying Checksum
+2025-01-24T19:32:45.472Z INFO  - 550ba9f795cb Download complete
+2025-01-24T19:32:45.558Z INFO  - e9352d9a3da2 Downloading 15MB / 45MB
+2025-01-24T19:32:45.575Z INFO  - 7d7766e2e20f Downloading 18MB / 68MB
+2025-01-24T19:32:45.577Z INFO  - 00ef0d8b6193 Downloading 16MB / 44MB
+2025-01-24T19:32:45.653Z INFO  - 7289fbcc356a Downloading 17MB / 34MB
+2025-01-24T19:32:45.784Z INFO  - ca4e5d672725 Downloading 17MB / 47MB
+2025-01-24T19:32:45.786Z INFO  - 00ef0d8b6193 Downloading 17MB / 44MB
+2025-01-24T19:32:46.012Z INFO  - 7d7766e2e20f Downloading 20MB / 68MB
+2025-01-24T19:32:46.127Z INFO  - ca4e5d672725 Downloading 18MB / 47MB
+2025-01-24T19:32:46.143Z INFO  - 7289fbcc356a Downloading 19MB / 34MB
+2025-01-24T19:32:46.145Z INFO  - e9352d9a3da2 Downloading 17MB / 45MB
+2025-01-24T19:32:46.257Z INFO  - 7289fbcc356a Downloading 19MB / 34MB
+2025-01-24T19:32:46.424Z INFO  - 00ef0d8b6193 Downloading 18MB / 44MB
+2025-01-24T19:32:46.517Z INFO  - ca4e5d672725 Downloading 19MB / 47MB
+2025-01-24T19:32:46.519Z INFO  - 7289fbcc356a Downloading 21MB / 34MB
+2025-01-24T19:32:46.546Z INFO  - 7d7766e2e20f Downloading 22MB / 68MB
+2025-01-24T19:32:46.641Z INFO  - e9352d9a3da2 Downloading 19MB / 45MB
+2025-01-24T19:32:46.909Z INFO  - e9352d9a3da2 Downloading 20MB / 45MB
+2025-01-24T19:32:46.911Z INFO  - ca4e5d672725 Downloading 21MB / 47MB
+2025-01-24T19:32:47.241Z INFO  - 7289fbcc356a Downloading 24MB / 34MB
+2025-01-24T19:32:47.257Z INFO  - 7d7766e2e20f Downloading 23MB / 68MB
+2025-01-24T19:32:47.259Z INFO  - 7289fbcc356a Downloading 25MB / 34MB
+2025-01-24T19:32:47.276Z INFO  - 7d7766e2e20f Downloading 23MB / 68MB
+2025-01-24T19:32:47.508Z INFO  - 00ef0d8b6193 Downloading 20MB / 44MB
+2025-01-24T19:32:47.526Z INFO  - e9352d9a3da2 Downloading 21MB / 45MB
+2025-01-24T19:32:47.570Z INFO  - 7289fbcc356a Downloading 26MB / 34MB
+2025-01-24T19:32:47.590Z INFO  - ca4e5d672725 Downloading 23MB / 47MB
+2025-01-24T19:32:47.988Z INFO  - 00ef0d8b6193 Downloading 21MB / 44MB
+2025-01-24T19:32:48.004Z INFO  - e9352d9a3da2 Downloading 22MB / 45MB
+2025-01-24T19:32:48.014Z INFO  - ca4e5d672725 Downloading 24MB / 47MB
+2025-01-24T19:32:48.138Z INFO  - 7d7766e2e20f Downloading 26MB / 68MB
+2025-01-24T19:32:48.224Z INFO  - 00ef0d8b6193 Downloading 24MB / 44MB
+2025-01-24T19:32:48.300Z INFO  - e9352d9a3da2 Downloading 23MB / 45MB
+2025-01-24T19:32:48.302Z INFO  - ca4e5d672725 Downloading 28MB / 47MB
+2025-01-24T19:32:48.462Z INFO  - 7d7766e2e20f Downloading 27MB / 68MB
+2025-01-24T19:32:48.541Z INFO  - 00ef0d8b6193 Downloading 27MB / 44MB
+2025-01-24T19:32:48.548Z INFO  - 7289fbcc356a Downloading 33MB / 34MB
+2025-01-24T19:32:48.597Z INFO  - ca4e5d672725 Downloading 31MB / 47MB
+2025-01-24T19:32:48.599Z INFO  - 7d7766e2e20f Downloading 29MB / 68MB
+2025-01-24T19:32:48.663Z INFO  - 7289fbcc356a Verifying Checksum
+2025-01-24T19:32:48.664Z INFO  - 7289fbcc356a Download complete
+2025-01-24T19:32:48.846Z INFO  - e9352d9a3da2 Downloading 27MB / 45MB
+2025-01-24T19:32:49.133Z INFO  - 00ef0d8b6193 Downloading 31MB / 44MB
+2025-01-24T19:32:49.225Z INFO  - ca4e5d672725 Downloading 34MB / 47MB
+2025-01-24T19:32:49.329Z INFO  - e9352d9a3da2 Downloading 29MB / 45MB
+2025-01-24T19:32:49.346Z INFO  - ca4e5d672725 Downloading 34MB / 47MB
+2025-01-24T19:32:49.348Z INFO  - 7d7766e2e20f Downloading 32MB / 68MB
+2025-01-24T19:32:49.417Z INFO  - e9352d9a3da2 Downloading 30MB / 45MB
+2025-01-24T19:32:49.425Z INFO  - 7d7766e2e20f Downloading 33MB / 68MB
+2025-01-24T19:32:49.501Z INFO  - 00ef0d8b6193 Downloading 32MB / 44MB
+2025-01-24T19:32:49.503Z INFO  - ca4e5d672725 Downloading 35MB / 47MB
+2025-01-24T19:32:49.550Z INFO  - e9352d9a3da2 Downloading 31MB / 45MB
+2025-01-24T19:32:49.576Z INFO  - 00ef0d8b6193 Downloading 33MB / 44MB
+2025-01-24T19:32:49.777Z INFO  - 7d7766e2e20f Downloading 36MB / 68MB
+2025-01-24T19:32:49.826Z INFO  - 00ef0d8b6193 Downloading 36MB / 44MB
+2025-01-24T19:32:49.834Z INFO  - ca4e5d672725 Downloading 38MB / 47MB
+2025-01-24T19:32:49.951Z INFO  - e9352d9a3da2 Downloading 35MB / 45MB
+2025-01-24T19:32:50.055Z INFO  - 7d7766e2e20f Downloading 38MB / 68MB
+2025-01-24T19:32:50.161Z INFO  - 00ef0d8b6193 Downloading 38MB / 44MB
+2025-01-24T19:32:50.274Z INFO  - e9352d9a3da2 Downloading 37MB / 45MB
+2025-01-24T19:32:50.350Z INFO  - 7d7766e2e20f Downloading 41MB / 68MB
+2025-01-24T19:32:50.369Z INFO  - e9352d9a3da2 Downloading 38MB / 45MB
+2025-01-24T19:32:50.506Z INFO  - ca4e5d672725 Downloading 43MB / 47MB
+2025-01-24T19:32:50.512Z INFO  - 00ef0d8b6193 Downloading 40MB / 44MB
+2025-01-24T19:32:50.514Z INFO  - 7d7766e2e20f Downloading 42MB / 68MB
+2025-01-24T19:32:50.618Z INFO  - 00ef0d8b6193 Downloading 41MB / 44MB
+2025-01-24T19:32:50.620Z INFO  - e9352d9a3da2 Downloading 40MB / 45MB
+2025-01-24T19:32:50.801Z INFO  - e9352d9a3da2 Downloading 41MB / 45MB
+2025-01-24T19:32:50.804Z INFO  - 7d7766e2e20f Downloading 45MB / 68MB
+2025-01-24T19:32:51.004Z INFO  - 00ef0d8b6193 Downloading 44MB / 44MB
+2025-01-24T19:32:51.011Z INFO  - e9352d9a3da2 Downloading 43MB / 45MB
+2025-01-24T19:32:51.097Z INFO  - 00ef0d8b6193 Verifying Checksum
+2025-01-24T19:32:51.107Z INFO  - 00ef0d8b6193 Download complete
+2025-01-24T19:32:51.110Z INFO  - ca4e5d672725 Verifying Checksum
+2025-01-24T19:32:51.114Z INFO  - ca4e5d672725 Download complete
+2025-01-24T19:32:51.154Z INFO  - e9352d9a3da2 Downloading 44MB / 45MB
+2025-01-24T19:32:51.156Z INFO  - 7d7766e2e20f Downloading 49MB / 68MB
+2025-01-24T19:32:51.270Z INFO  - e9352d9a3da2 Verifying Checksum
+2025-01-24T19:32:51.277Z INFO  - e9352d9a3da2 Download complete
+2025-01-24T19:32:51.343Z INFO  - 7d7766e2e20f Downloading 53MB / 68MB
+2025-01-24T19:32:51.567Z INFO  - 7d7766e2e20f Downloading 55MB / 68MB
+2025-01-24T19:32:51.700Z INFO  - 7d7766e2e20f Downloading 56MB / 68MB
+2025-01-24T19:32:51.990Z INFO  - 7d7766e2e20f Downloading 61MB / 68MB
+2025-01-24T19:32:52.380Z INFO  - 7d7766e2e20f Verifying Checksum
+2025-01-24T19:32:52.382Z INFO  - 7d7766e2e20f Download complete
+2025-01-24T19:32:53.150Z INFO  - ca4e5d672725 Extracting 2MB / 47MB
+2025-01-24T19:32:53.359Z INFO  - ca4e5d672725 Extracting 3MB / 47MB
+2025-01-24T19:32:53.599Z INFO  - ca4e5d672725 Extracting 4MB / 47MB
+2025-01-24T19:32:53.903Z INFO  - ca4e5d672725 Extracting 5MB / 47MB
+2025-01-24T19:32:54.076Z INFO  - ca4e5d672725 Extracting 6MB / 47MB
+2025-01-24T19:32:54.828Z INFO  - ca4e5d672725 Extracting 7MB / 47MB
+2025-01-24T19:32:55.204Z INFO  - ca4e5d672725 Extracting 8MB / 47MB
+2025-01-24T19:32:55.876Z INFO  - ca4e5d672725 Extracting 9MB / 47MB
+2025-01-24T19:32:56.332Z INFO  - ca4e5d672725 Extracting 10MB / 47MB
+2025-01-24T19:32:56.920Z INFO  - ca4e5d672725 Extracting 11MB / 47MB
+2025-01-24T19:32:57.144Z INFO  - ca4e5d672725 Extracting 12MB / 47MB
+2025-01-24T19:32:57.790Z INFO  - ca4e5d672725 Extracting 14MB / 47MB
+2025-01-24T19:32:58.192Z INFO  - ca4e5d672725 Extracting 15MB / 47MB
+2025-01-24T19:32:58.441Z INFO  - ca4e5d672725 Extracting 16MB / 47MB
+2025-01-24T19:32:58.943Z INFO  - ca4e5d672725 Extracting 19MB / 47MB
+2025-01-24T19:32:59.308Z INFO  - ca4e5d672725 Extracting 20MB / 47MB
+2025-01-24T19:32:59.482Z INFO  - ca4e5d672725 Extracting 21MB / 47MB
+2025-01-24T19:32:59.758Z INFO  - ca4e5d672725 Extracting 22MB / 47MB
+2025-01-24T19:33:00.099Z INFO  - ca4e5d672725 Extracting 23MB / 47MB
+2025-01-24T19:33:03.120Z INFO  - ca4e5d672725 Extracting 24MB / 47MB
+2025-01-24T19:33:03.931Z INFO  - ca4e5d672725 Extracting 26MB / 47MB
+2025-01-24T19:33:04.075Z INFO  - ca4e5d672725 Extracting 27MB / 47MB
+2025-01-24T19:33:04.332Z INFO  - ca4e5d672725 Extracting 28MB / 47MB
+2025-01-24T19:33:04.755Z INFO  - ca4e5d672725 Extracting 29MB / 47MB
+2025-01-24T19:33:05.307Z INFO  - ca4e5d672725 Extracting 30MB / 47MB
+2025-01-24T19:33:05.492Z INFO  - ca4e5d672725 Extracting 31MB / 47MB
+2025-01-24T19:33:05.744Z INFO  - ca4e5d672725 Extracting 32MB / 47MB
+2025-01-24T19:33:05.944Z INFO  - ca4e5d672725 Extracting 33MB / 47MB
+2025-01-24T19:33:06.438Z INFO  - ca4e5d672725 Extracting 35MB / 47MB
+2025-01-24T19:33:06.882Z INFO  - ca4e5d672725 Extracting 36MB / 47MB
+2025-01-24T19:33:07.293Z INFO  - ca4e5d672725 Extracting 37MB / 47MB
+2025-01-24T19:33:07.730Z INFO  - ca4e5d672725 Extracting 38MB / 47MB
+2025-01-24T19:33:08.504Z INFO  - ca4e5d672725 Extracting 39MB / 47MB
+2025-01-24T19:33:08.990Z INFO  - ca4e5d672725 Extracting 40MB / 47MB
+2025-01-24T19:33:09.361Z INFO  - ca4e5d672725 Extracting 41MB / 47MB
+2025-01-24T19:33:09.717Z INFO  - ca4e5d672725 Extracting 42MB / 47MB
+2025-01-24T19:33:09.977Z INFO  - ca4e5d672725 Extracting 43MB / 47MB
+2025-01-24T19:33:10.161Z INFO  - ca4e5d672725 Extracting 43MB / 47MB
+2025-01-24T19:33:10.971Z INFO  - ca4e5d672725 Extracting 44MB / 47MB
+2025-01-24T19:33:11.164Z INFO  - ca4e5d672725 Extracting 45MB / 47MB
+2025-01-24T19:33:12.743Z INFO  - ca4e5d672725 Extracting 46MB / 47MB
+2025-01-24T19:33:14.254Z INFO  - ca4e5d672725 Extracting 47MB / 47MB
+2025-01-24T19:33:14.712Z INFO  - ca4e5d672725 Pull complete
+2025-01-24T19:33:16.306Z INFO  - 7289fbcc356a Extracting 704KB / 34MB
+2025-01-24T19:33:16.842Z INFO  - 7289fbcc356a Extracting 1MB / 34MB
+2025-01-24T19:33:17.717Z INFO  - 7289fbcc356a Extracting 2MB / 34MB
+2025-01-24T19:33:18.319Z INFO  - 7289fbcc356a Extracting 3MB / 34MB
+2025-01-24T19:33:19.063Z INFO  - 7289fbcc356a Extracting 4MB / 34MB
+2025-01-24T19:33:19.168Z INFO  - 7289fbcc356a Extracting 4MB / 34MB
+2025-01-24T19:33:19.514Z INFO  - 7289fbcc356a Extracting 5MB / 34MB
+2025-01-24T19:33:19.805Z INFO  - 7289fbcc356a Extracting 6MB / 34MB
+2025-01-24T19:33:20.197Z INFO  - 7289fbcc356a Extracting 6MB / 34MB
+2025-01-24T19:33:20.707Z INFO  - 7289fbcc356a Extracting 7MB / 34MB
+2025-01-24T19:33:21.001Z INFO  - 7289fbcc356a Extracting 8MB / 34MB
+2025-01-24T19:33:21.349Z INFO  - 7289fbcc356a Extracting 8MB / 34MB
+2025-01-24T19:33:22.223Z INFO  - 7289fbcc356a Extracting 10MB / 34MB
+2025-01-24T19:33:22.982Z INFO  - 7289fbcc356a Extracting 13MB / 34MB
+2025-01-24T19:33:23.371Z INFO  - 7289fbcc356a Extracting 15MB / 34MB
+2025-01-24T19:33:23.761Z INFO  - 7289fbcc356a Extracting 15MB / 34MB
+2025-01-24T19:33:24.101Z INFO  - 7289fbcc356a Extracting 16MB / 34MB
+2025-01-24T19:33:24.382Z INFO  - 7289fbcc356a Extracting 17MB / 34MB
+2025-01-24T19:33:24.873Z INFO  - 7289fbcc356a Extracting 18MB / 34MB
+2025-01-24T19:33:25.202Z INFO  - 7289fbcc356a Extracting 19MB / 34MB
+2025-01-24T19:33:25.965Z INFO  - 7289fbcc356a Extracting 22MB / 34MB
+2025-01-24T19:33:26.101Z INFO  - 7289fbcc356a Extracting 23MB / 34MB
+2025-01-24T19:33:26.504Z INFO  - 7289fbcc356a Extracting 25MB / 34MB
+2025-01-24T19:33:26.828Z INFO  - 7289fbcc356a Extracting 26MB / 34MB
+2025-01-24T19:33:27.393Z INFO  - 7289fbcc356a Extracting 26MB / 34MB
+2025-01-24T19:33:27.781Z INFO  - 7289fbcc356a Extracting 27MB / 34MB
+2025-01-24T19:33:27.911Z INFO  - 7289fbcc356a Extracting 28MB / 34MB
+2025-01-24T19:33:28.041Z INFO  - 7289fbcc356a Extracting 28MB / 34MB
+2025-01-24T19:33:28.244Z INFO  - 7289fbcc356a Extracting 29MB / 34MB
+2025-01-24T19:33:28.455Z INFO  - 7289fbcc356a Extracting 30MB / 34MB
+2025-01-24T19:33:28.558Z INFO  - 7289fbcc356a Extracting 30MB / 34MB
+2025-01-24T19:33:29.504Z INFO  - 7289fbcc356a Extracting 34MB / 34MB
+2025-01-24T19:33:29.719Z INFO  - 7289fbcc356a Pull complete
+2025-01-24T19:33:30.340Z INFO  - fa59f5014120 Extracting 192KB / 4MB
+2025-01-24T19:33:30.725Z INFO  - fa59f5014120 Extracting 960KB / 4MB
+2025-01-24T19:33:30.849Z INFO  - fa59f5014120 Extracting 1MB / 4MB
+2025-01-24T19:33:30.949Z INFO  - fa59f5014120 Extracting 1MB / 4MB
+2025-01-24T19:33:31.288Z INFO  - fa59f5014120 Extracting 2MB / 4MB
+2025-01-24T19:33:31.389Z INFO  - fa59f5014120 Extracting 3MB / 4MB
+2025-01-24T19:33:31.491Z INFO  - fa59f5014120 Extracting 3MB / 4MB
+2025-01-24T19:33:31.635Z INFO  - fa59f5014120 Extracting 3MB / 4MB
+2025-01-24T19:33:31.749Z INFO  - fa59f5014120 Extracting 4MB / 4MB
+2025-01-24T19:33:31.795Z INFO  - fa59f5014120 Extracting 4MB / 4MB
+2025-01-24T19:33:31.824Z INFO  - fa59f5014120 Extracting 4MB / 4MB
+2025-01-24T19:33:32.067Z INFO  - fa59f5014120 Pull complete
+2025-01-24T19:33:32.117Z INFO  - ba76ec5fa96a Extracting 400B / 400B
+2025-01-24T19:33:32.302Z INFO  - ba76ec5fa96a Extracting 400B / 400B
+2025-01-24T19:33:33.095Z INFO  - ba76ec5fa96a Pull complete
+2025-01-24T19:33:33.265Z INFO  - c5aa5b09edb5 Extracting 32KB / 1MB
+2025-01-24T19:33:33.942Z INFO  - c5aa5b09edb5 Extracting 1MB / 1MB
+2025-01-24T19:33:33.950Z INFO  - c5aa5b09edb5 Extracting 1MB / 1MB
+2025-01-24T19:33:34.050Z INFO  - c5aa5b09edb5 Pull complete
+2025-01-24T19:33:34.059Z INFO  - 333cd8ad6a3b Extracting 32KB / 49KB
+2025-01-24T19:33:34.542Z INFO  - 333cd8ad6a3b Extracting 49KB / 49KB
+2025-01-24T19:33:34.638Z INFO  - 333cd8ad6a3b Extracting 49KB / 49KB
+2025-01-24T19:33:34.861Z INFO  - 333cd8ad6a3b Pull complete
+2025-01-24T19:33:34.870Z INFO  - 475335986fc5 Extracting 10KB / 10KB
+2025-01-24T19:33:35.415Z INFO  - 475335986fc5 Extracting 10KB / 10KB
+2025-01-24T19:33:35.735Z INFO  - 475335986fc5 Pull complete
+2025-01-24T19:33:35.830Z INFO  - 67157399a877 Extracting 23KB / 23KB
+2025-01-24T19:33:36.362Z INFO  - 67157399a877 Extracting 23KB / 23KB
+2025-01-24T19:33:36.486Z INFO  - 67157399a877 Pull complete
+2025-01-24T19:33:36.526Z INFO  - 9abb2b94ab40 Extracting 32KB / 480KB
+2025-01-24T19:33:37.189Z INFO  - 9abb2b94ab40 Extracting 480KB / 480KB
+2025-01-24T19:33:37.622Z INFO  - 9abb2b94ab40 Pull complete
+2025-01-24T19:33:37.632Z INFO  - 26712510d395 Extracting 10KB / 10KB
+2025-01-24T19:33:37.698Z INFO  - 26712510d395 Extracting 10KB / 10KB
+2025-01-24T19:33:38.349Z INFO  - 26712510d395 Pull complete
+2025-01-24T19:33:38.401Z INFO  - f2a6c51c8f06 Extracting 32KB / 1MB
+2025-01-24T19:33:39.018Z INFO  - f2a6c51c8f06 Extracting 1MB / 1MB
+2025-01-24T19:33:39.029Z INFO  - f2a6c51c8f06 Extracting 1MB / 1MB
+2025-01-24T19:33:39.167Z INFO  - f2a6c51c8f06 Pull complete
+2025-01-24T19:33:39.188Z INFO  - d914df855007 Extracting 32KB / 1MB
+2025-01-24T19:33:39.932Z INFO  - d914df855007 Extracting 352KB / 1MB
+2025-01-24T19:33:40.163Z INFO  - d914df855007 Extracting 960KB / 1MB
+2025-01-24T19:33:40.284Z INFO  - d914df855007 Extracting 1MB / 1MB
+2025-01-24T19:33:40.754Z INFO  - d914df855007 Pull complete
+2025-01-24T19:33:40.789Z INFO  - 29359c335761 Extracting 3KB / 3KB
+2025-01-24T19:33:40.965Z INFO  - 29359c335761 Extracting 3KB / 3KB
+2025-01-24T19:33:42.288Z INFO  - 29359c335761 Pull complete
+2025-01-24T19:33:42.336Z INFO  - 47f632600f4b Extracting 93B / 93B
+2025-01-24T19:33:42.421Z INFO  - 47f632600f4b Extracting 93B / 93B
+2025-01-24T19:33:43.517Z INFO  - 47f632600f4b Pull complete
+2025-01-24T19:33:44.738Z INFO  - 00ef0d8b6193 Extracting 2MB / 44MB
+2025-01-24T19:33:46.433Z INFO  - 00ef0d8b6193 Extracting 10MB / 44MB
+2025-01-24T19:33:46.548Z INFO  - 00ef0d8b6193 Extracting 11MB / 44MB
+2025-01-24T19:33:46.803Z INFO  - 00ef0d8b6193 Extracting 12MB / 44MB
+2025-01-24T19:33:46.912Z INFO  - 00ef0d8b6193 Extracting 13MB / 44MB
+2025-01-24T19:33:47.104Z INFO  - 00ef0d8b6193 Extracting 14MB / 44MB
+2025-01-24T19:33:47.297Z INFO  - 00ef0d8b6193 Extracting 15MB / 44MB
+2025-01-24T19:33:47.472Z INFO  - 00ef0d8b6193 Extracting 16MB / 44MB
+2025-01-24T19:33:47.709Z INFO  - 00ef0d8b6193 Extracting 18MB / 44MB
+2025-01-24T19:33:47.812Z INFO  - 00ef0d8b6193 Extracting 19MB / 44MB
+2025-01-24T19:33:47.920Z INFO  - 00ef0d8b6193 Extracting 20MB / 44MB
+2025-01-24T19:33:48.547Z INFO  - 00ef0d8b6193 Extracting 24MB / 44MB
+2025-01-24T19:33:49.017Z INFO  - 00ef0d8b6193 Extracting 26MB / 44MB
+2025-01-24T19:33:49.580Z INFO  - 00ef0d8b6193 Extracting 27MB / 44MB
+2025-01-24T19:33:49.995Z INFO  - 00ef0d8b6193 Extracting 28MB / 44MB
+2025-01-24T19:33:50.353Z INFO  - 00ef0d8b6193 Extracting 29MB / 44MB
+2025-01-24T19:33:50.692Z INFO  - 00ef0d8b6193 Extracting 30MB / 44MB
+2025-01-24T19:33:50.882Z INFO  - 00ef0d8b6193 Extracting 31MB / 44MB
+2025-01-24T19:33:51.234Z INFO  - 00ef0d8b6193 Extracting 33MB / 44MB
+2025-01-24T19:33:51.359Z INFO  - 00ef0d8b6193 Extracting 35MB / 44MB
+2025-01-24T19:33:51.682Z INFO  - 00ef0d8b6193 Extracting 37MB / 44MB
+2025-01-24T19:33:51.826Z INFO  - 00ef0d8b6193 Extracting 38MB / 44MB
+2025-01-24T19:33:51.981Z INFO  - 00ef0d8b6193 Extracting 39MB / 44MB
+2025-01-24T19:33:52.334Z INFO  - 00ef0d8b6193 Extracting 43MB / 44MB
+2025-01-24T19:33:52.491Z INFO  - 00ef0d8b6193 Extracting 44MB / 44MB
+2025-01-24T19:33:52.602Z INFO  - 00ef0d8b6193 Pull complete
+2025-01-24T19:33:53.804Z INFO  - e9352d9a3da2 Extracting 2MB / 45MB
+2025-01-24T19:33:53.957Z INFO  - e9352d9a3da2 Extracting 3MB / 45MB
+2025-01-24T19:33:54.178Z INFO  - e9352d9a3da2 Extracting 4MB / 45MB
+2025-01-24T19:33:54.330Z INFO  - e9352d9a3da2 Extracting 5MB / 45MB
+2025-01-24T19:33:54.502Z INFO  - e9352d9a3da2 Extracting 6MB / 45MB
+2025-01-24T19:33:54.849Z INFO  - e9352d9a3da2 Extracting 7MB / 45MB
+2025-01-24T19:33:55.240Z INFO  - e9352d9a3da2 Extracting 9MB / 45MB
+2025-01-24T19:33:55.389Z INFO  - e9352d9a3da2 Extracting 10MB / 45MB
+2025-01-24T19:33:55.508Z INFO  - e9352d9a3da2 Extracting 11MB / 45MB
+2025-01-24T19:33:56.552Z INFO  - e9352d9a3da2 Extracting 15MB / 45MB
+2025-01-24T19:33:56.885Z INFO  - e9352d9a3da2 Extracting 15MB / 45MB
+2025-01-24T19:33:57.133Z INFO  - e9352d9a3da2 Extracting 16MB / 45MB
+2025-01-24T19:33:57.683Z INFO  - e9352d9a3da2 Extracting 19MB / 45MB
+2025-01-24T19:33:58.067Z INFO  - e9352d9a3da2 Extracting 21MB / 45MB
+2025-01-24T19:33:58.333Z INFO  - e9352d9a3da2 Extracting 22MB / 45MB
+2025-01-24T19:33:58.627Z INFO  - e9352d9a3da2 Extracting 22MB / 45MB
+2025-01-24T19:33:58.744Z INFO  - e9352d9a3da2 Extracting 23MB / 45MB
+2025-01-24T19:33:58.878Z INFO  - e9352d9a3da2 Extracting 24MB / 45MB
+2025-01-24T19:33:59.030Z INFO  - e9352d9a3da2 Extracting 25MB / 45MB
+2025-01-24T19:33:59.275Z INFO  - e9352d9a3da2 Extracting 26MB / 45MB
+2025-01-24T19:33:59.455Z INFO  - e9352d9a3da2 Extracting 27MB / 45MB
+2025-01-24T19:33:59.629Z INFO  - e9352d9a3da2 Extracting 28MB / 45MB
+2025-01-24T19:34:00.009Z INFO  - e9352d9a3da2 Extracting 29MB / 45MB
+2025-01-24T19:34:00.378Z INFO  - e9352d9a3da2 Extracting 30MB / 45MB
+2025-01-24T19:34:00.728Z INFO  - e9352d9a3da2 Extracting 31MB / 45MB
+2025-01-24T19:34:00.958Z INFO  - e9352d9a3da2 Extracting 32MB / 45MB
+2025-01-24T19:34:01.190Z INFO  - e9352d9a3da2 Extracting 33MB / 45MB
+2025-01-24T19:34:02.645Z INFO  - e9352d9a3da2 Extracting 35MB / 45MB
+2025-01-24T19:34:05.931Z INFO  - e9352d9a3da2 Extracting 36MB / 45MB
+2025-01-24T19:34:07.349Z INFO  - e9352d9a3da2 Extracting 37MB / 45MB
+2025-01-24T19:34:08.245Z INFO  - e9352d9a3da2 Extracting 37MB / 45MB
+2025-01-24T19:34:09.799Z INFO  - e9352d9a3da2 Extracting 38MB / 45MB
+2025-01-24T19:34:10.417Z INFO  - e9352d9a3da2 Extracting 39MB / 45MB
+2025-01-24T19:34:11.140Z INFO  - e9352d9a3da2 Extracting 40MB / 45MB
+2025-01-24T19:34:12.473Z INFO  - e9352d9a3da2 Extracting 41MB / 45MB
+2025-01-24T19:34:13.572Z INFO  - e9352d9a3da2 Extracting 42MB / 45MB
+2025-01-24T19:34:14.874Z INFO  - e9352d9a3da2 Extracting 43MB / 45MB
+2025-01-24T19:34:16.483Z INFO  - e9352d9a3da2 Extracting 44MB / 45MB
+2025-01-24T19:34:18.115Z INFO  - e9352d9a3da2 Extracting 45MB / 45MB
+2025-01-24T19:34:19.465Z INFO  - e9352d9a3da2 Extracting 45MB / 45MB
+2025-01-24T19:34:19.922Z INFO  - e9352d9a3da2 Pull complete
+2025-01-24T19:34:20.530Z INFO  - 659fa1d04cf4 Extracting 256KB / 10MB
+2025-01-24T19:34:20.671Z INFO  - 659fa1d04cf4 Extracting 512KB / 10MB
+2025-01-24T19:34:20.906Z INFO  - 659fa1d04cf4 Extracting 2MB / 10MB
+2025-01-24T19:34:21.519Z INFO  - 659fa1d04cf4 Extracting 2MB / 10MB
+2025-01-24T19:34:21.662Z INFO  - 659fa1d04cf4 Extracting 3MB / 10MB
+2025-01-24T19:34:21.814Z INFO  - 659fa1d04cf4 Extracting 3MB / 10MB
+2025-01-24T19:34:21.985Z INFO  - 659fa1d04cf4 Extracting 3MB / 10MB
+2025-01-24T19:34:22.203Z INFO  - 659fa1d04cf4 Extracting 4MB / 10MB
+2025-01-24T19:34:22.317Z INFO  - 659fa1d04cf4 Extracting 5MB / 10MB
+2025-01-24T19:34:22.414Z INFO  - 659fa1d04cf4 Extracting 5MB / 10MB
+2025-01-24T19:34:22.887Z INFO  - 659fa1d04cf4 Extracting 7MB / 10MB
+2025-01-24T19:34:24.907Z INFO  - 659fa1d04cf4 Extracting 8MB / 10MB
+2025-01-24T19:34:25.344Z INFO  - 659fa1d04cf4 Extracting 8MB / 10MB
+2025-01-24T19:34:25.901Z INFO  - 659fa1d04cf4 Extracting 8MB / 10MB
+2025-01-24T19:34:26.456Z INFO  - 659fa1d04cf4 Extracting 8MB / 10MB
+2025-01-24T19:34:26.759Z INFO  - 659fa1d04cf4 Extracting 8MB / 10MB
+2025-01-24T19:34:27.226Z INFO  - 659fa1d04cf4 Extracting 9MB / 10MB
+2025-01-24T19:34:27.815Z INFO  - 659fa1d04cf4 Extracting 9MB / 10MB
+2025-01-24T19:34:28.062Z INFO  - 659fa1d04cf4 Extracting 9MB / 10MB
+2025-01-24T19:34:28.516Z INFO  - 659fa1d04cf4 Extracting 10MB / 10MB
+2025-01-24T19:34:29.227Z INFO  - 659fa1d04cf4 Extracting 10MB / 10MB
+2025-01-24T19:34:29.484Z INFO  - 659fa1d04cf4 Pull complete
+2025-01-24T19:34:30.765Z INFO  - 550ba9f795cb Extracting 1MB / 17MB
+2025-01-24T19:34:30.943Z INFO  - 550ba9f795cb Extracting 2MB / 17MB
+2025-01-24T19:34:31.147Z INFO  - 550ba9f795cb Extracting 2MB / 17MB
+2025-01-24T19:34:31.575Z INFO  - 550ba9f795cb Extracting 3MB / 17MB
+2025-01-24T19:34:31.754Z INFO  - 550ba9f795cb Extracting 3MB / 17MB
+2025-01-24T19:34:32.488Z INFO  - 550ba9f795cb Extracting 5MB / 17MB
+2025-01-24T19:34:33.137Z INFO  - 550ba9f795cb Extracting 6MB / 17MB
+2025-01-24T19:34:33.227Z INFO  - 550ba9f795cb Extracting 6MB / 17MB
+2025-01-24T19:34:33.724Z INFO  - 550ba9f795cb Extracting 8MB / 17MB
+2025-01-24T19:34:33.820Z INFO  - 550ba9f795cb Extracting 9MB / 17MB
+2025-01-24T19:34:35.406Z INFO  - 550ba9f795cb Extracting 9MB / 17MB
+2025-01-24T19:34:37.782Z INFO  - 550ba9f795cb Extracting 10MB / 17MB
+2025-01-24T19:34:37.905Z INFO  - 550ba9f795cb Extracting 10MB / 17MB
+2025-01-24T19:34:39.072Z INFO  - 550ba9f795cb Extracting 10MB / 17MB
+2025-01-24T19:34:39.791Z INFO  - 550ba9f795cb Extracting 11MB / 17MB
+2025-01-24T19:34:40.787Z INFO  - 550ba9f795cb Extracting 11MB / 17MB
+2025-01-24T19:34:41.097Z INFO  - 550ba9f795cb Extracting 12MB / 17MB
+2025-01-24T19:34:41.832Z INFO  - 550ba9f795cb Extracting 12MB / 17MB
+2025-01-24T19:34:43.140Z INFO  - 550ba9f795cb Extracting 12MB / 17MB
+2025-01-24T19:34:43.547Z INFO  - 550ba9f795cb Extracting 13MB / 17MB
+2025-01-24T19:34:44.364Z INFO  - 550ba9f795cb Extracting 14MB / 17MB
+2025-01-24T19:34:45.063Z INFO  - 550ba9f795cb Extracting 14MB / 17MB
+2025-01-24T19:34:46.078Z INFO  - 550ba9f795cb Extracting 15MB / 17MB
+2025-01-24T19:34:46.656Z INFO  - 550ba9f795cb Extracting 15MB / 17MB
+2025-01-24T19:34:47.455Z INFO  - 550ba9f795cb Extracting 15MB / 17MB
+2025-01-24T19:34:48.550Z INFO  - 550ba9f795cb Extracting 16MB / 17MB
+2025-01-24T19:34:48.772Z INFO  - 550ba9f795cb Extracting 16MB / 17MB
+2025-01-24T19:34:49.533Z INFO  - 550ba9f795cb Extracting 16MB / 17MB
+2025-01-24T19:34:49.918Z INFO  - 550ba9f795cb Extracting 17MB / 17MB
+2025-01-24T19:34:50.523Z INFO  - 550ba9f795cb Extracting 17MB / 17MB
+2025-01-24T19:34:51.081Z INFO  - 550ba9f795cb Pull complete
+2025-01-24T19:34:51.119Z INFO  - 73921fba6922 Extracting 143B / 143B
+2025-01-24T19:34:51.301Z INFO  - 73921fba6922 Extracting 143B / 143B
+2025-01-24T19:34:51.999Z INFO  - 73921fba6922 Pull complete
+2025-01-24T19:34:52.637Z INFO  - 48cc111e7319 Extracting 128KB / 5MB
+2025-01-24T19:34:52.736Z INFO  - 48cc111e7319 Extracting 704KB / 5MB
+2025-01-24T19:34:53.270Z INFO  - 48cc111e7319 Extracting 4MB / 5MB
+2025-01-24T19:34:53.378Z INFO  - 48cc111e7319 Extracting 5MB / 5MB
+2025-01-24T19:34:53.545Z INFO  - 48cc111e7319 Pull complete
+2025-01-24T19:34:53.573Z INFO  - 8fd2bc79bd34 Extracting 947B / 947B
+2025-01-24T19:34:53.643Z INFO  - 8fd2bc79bd34 Extracting 947B / 947B
+2025-01-24T19:34:54.135Z INFO  - 8fd2bc79bd34 Pull complete
+2025-01-24T19:34:54.151Z INFO  - 16f05635b4f9 Extracting 1KB / 1KB
+2025-01-24T19:34:54.259Z INFO  - 16f05635b4f9 Extracting 1KB / 1KB
+2025-01-24T19:34:54.989Z INFO  - 16f05635b4f9 Pull complete
+2025-01-24T19:34:55.046Z INFO  - 6b9e720fb0c5 Extracting 138B / 138B
+2025-01-24T19:34:55.152Z INFO  - 6b9e720fb0c5 Extracting 138B / 138B
+2025-01-24T19:34:56.834Z INFO  - 6b9e720fb0c5 Pull complete
+2025-01-24T19:34:57.835Z INFO  - 7d7766e2e20f Extracting 544KB / 68MB
+2025-01-24T19:34:58.331Z INFO  - 7d7766e2e20f Extracting 1MB / 68MB
+2025-01-24T19:34:58.767Z INFO  - 7d7766e2e20f Extracting 3MB / 68MB
+2025-01-24T19:34:59.582Z INFO  - 7d7766e2e20f Extracting 4MB / 68MB
+2025-01-24T19:35:00.164Z INFO  - 7d7766e2e20f Extracting 4MB / 68MB
+2025-01-24T19:35:01.076Z INFO  - 7d7766e2e20f Extracting 5MB / 68MB
+2025-01-24T19:35:01.492Z INFO  - 7d7766e2e20f Extracting 6MB / 68MB
+2025-01-24T19:35:01.786Z INFO  - 7d7766e2e20f Extracting 7MB / 68MB
+2025-01-24T19:35:02.811Z INFO  - 7d7766e2e20f Extracting 8MB / 68MB
+2025-01-24T19:35:04.916Z INFO  - 7d7766e2e20f Extracting 10MB / 68MB
+2025-01-24T19:35:05.429Z INFO  - 7d7766e2e20f Extracting 11MB / 68MB
+2025-01-24T19:35:07.459Z INFO  - 7d7766e2e20f Extracting 12MB / 68MB
+2025-01-24T19:35:08.581Z INFO  - 7d7766e2e20f Extracting 13MB / 68MB
+2025-01-24T19:35:09.257Z INFO  - 7d7766e2e20f Extracting 14MB / 68MB
+2025-01-24T19:35:10.003Z INFO  - 7d7766e2e20f Extracting 15MB / 68MB
+2025-01-24T19:35:11.566Z INFO  - 7d7766e2e20f Extracting 16MB / 68MB
+2025-01-24T19:35:12.303Z INFO  - 7d7766e2e20f Extracting 17MB / 68MB
+2025-01-24T19:35:12.854Z INFO  - 7d7766e2e20f Extracting 18MB / 68MB
+2025-01-24T19:35:13.264Z INFO  - 7d7766e2e20f Extracting 19MB / 68MB
+2025-01-24T19:35:13.523Z INFO  - 7d7766e2e20f Extracting 20MB / 68MB
+2025-01-24T19:35:14.167Z INFO  - 7d7766e2e20f Extracting 22MB / 68MB
+2025-01-24T19:35:14.488Z INFO  - 7d7766e2e20f Extracting 23MB / 68MB
+2025-01-24T19:35:14.639Z INFO  - 7d7766e2e20f Extracting 23MB / 68MB
+2025-01-24T19:35:14.986Z INFO  - 7d7766e2e20f Extracting 24MB / 68MB
+2025-01-24T19:35:15.422Z INFO  - 7d7766e2e20f Extracting 26MB / 68MB
+2025-01-24T19:35:15.914Z INFO  - 7d7766e2e20f Extracting 27MB / 68MB
+2025-01-24T19:35:16.483Z INFO  - 7d7766e2e20f Extracting 29MB / 68MB
+2025-01-24T19:35:16.835Z INFO  - 7d7766e2e20f Extracting 30MB / 68MB
+2025-01-24T19:35:17.743Z INFO  - 7d7766e2e20f Extracting 32MB / 68MB
+2025-01-24T19:35:17.915Z INFO  - 7d7766e2e20f Extracting 33MB / 68MB
+2025-01-24T19:35:18.241Z INFO  - 7d7766e2e20f Extracting 34MB / 68MB
+2025-01-24T19:35:18.678Z INFO  - 7d7766e2e20f Extracting 35MB / 68MB
+2025-01-24T19:35:18.876Z INFO  - 7d7766e2e20f Extracting 36MB / 68MB
+2025-01-24T19:35:19.372Z INFO  - 7d7766e2e20f Extracting 37MB / 68MB
+2025-01-24T19:35:20.357Z INFO  - 7d7766e2e20f Extracting 38MB / 68MB
+2025-01-24T19:35:20.980Z INFO  - 7d7766e2e20f Extracting 39MB / 68MB
+2025-01-24T19:35:23.513Z INFO  - 7d7766e2e20f Extracting 41MB / 68MB
+2025-01-24T19:35:25.090Z INFO  - 7d7766e2e20f Extracting 42MB / 68MB
+2025-01-24T19:35:26.030Z INFO  - 7d7766e2e20f Extracting 43MB / 68MB
+2025-01-24T19:35:27.101Z INFO  - 7d7766e2e20f Extracting 44MB / 68MB
+2025-01-24T19:35:28.001Z INFO  - 7d7766e2e20f Extracting 45MB / 68MB
+2025-01-24T19:35:29.896Z INFO  - 7d7766e2e20f Extracting 45MB / 68MB
+2025-01-24T19:35:31.352Z INFO  - 7d7766e2e20f Extracting 46MB / 68MB
+2025-01-24T19:35:33.013Z INFO  - 7d7766e2e20f Extracting 48MB / 68MB
+2025-01-24T19:35:33.759Z INFO  - 7d7766e2e20f Extracting 49MB / 68MB
+2025-01-24T19:35:34.453Z INFO  - 7d7766e2e20f Extracting 51MB / 68MB
+2025-01-24T19:35:36.226Z INFO  - 7d7766e2e20f Extracting 52MB / 68MB
+2025-01-24T19:35:36.656Z INFO  - 7d7766e2e20f Extracting 52MB / 68MB
+2025-01-24T19:35:37.244Z INFO  - 7d7766e2e20f Extracting 53MB / 68MB
+2025-01-24T19:35:37.799Z INFO  - 7d7766e2e20f Extracting 55MB / 68MB
+2025-01-24T19:35:38.073Z INFO  - 7d7766e2e20f Extracting 56MB / 68MB
+2025-01-24T19:35:38.659Z INFO  - 7d7766e2e20f Extracting 57MB / 68MB
+2025-01-24T19:35:39.138Z INFO  - 7d7766e2e20f Extracting 58MB / 68MB
+2025-01-24T19:35:39.976Z INFO  - 7d7766e2e20f Extracting 60MB / 68MB
+2025-01-24T19:35:40.311Z INFO  - 7d7766e2e20f Extracting 61MB / 68MB
+2025-01-24T19:35:40.507Z INFO  - 7d7766e2e20f Extracting 62MB / 68MB
+2025-01-24T19:35:40.941Z INFO  - 7d7766e2e20f Extracting 63MB / 68MB
+2025-01-24T19:35:41.317Z INFO  - 7d7766e2e20f Extracting 64MB / 68MB
+2025-01-24T19:35:41.457Z INFO  - 7d7766e2e20f Extracting 64MB / 68MB
+2025-01-24T19:35:41.813Z INFO  - 7d7766e2e20f Extracting 65MB / 68MB
+2025-01-24T19:35:42.315Z INFO  - 7d7766e2e20f Extracting 67MB / 68MB
+2025-01-24T19:35:43.451Z INFO  - 7d7766e2e20f Extracting 68MB / 68MB
+2025-01-24T19:35:44.016Z INFO  - 7d7766e2e20f Pull complete
+2025-01-24T19:35:44.058Z INFO  - 2d337a27955a Extracting 1KB / 1KB
+2025-01-24T19:35:44.229Z INFO  - 2d337a27955a Extracting 1KB / 1KB
+2025-01-24T19:35:44.969Z INFO  - 2d337a27955a Pull complete
+2025-01-24T19:35:44.989Z INFO  - c9320690d821 Extracting 1KB / 1KB
+2025-01-24T19:35:45.076Z INFO  - c9320690d821 Extracting 1KB / 1KB
+2025-01-24T19:35:45.519Z INFO  - c9320690d821 Pull complete
+2025-01-24T19:35:45.555Z INFO  - db86a19b33d3 Extracting 152B / 152B
+2025-01-24T19:35:45.707Z INFO  - db86a19b33d3 Extracting 152B / 152B
+2025-01-24T19:35:46.178Z INFO  - db86a19b33d3 Pull complete
+2025-01-24T19:35:46.185Z INFO  - ed4061982610 Extracting 9KB / 9KB
+2025-01-24T19:35:46.284Z INFO  - ed4061982610 Extracting 9KB / 9KB
+2025-01-24T19:35:46.646Z INFO  - ed4061982610 Pull complete
+2025-01-24T19:35:46.685Z INFO  - ee85922174bb Extracting 1KB / 1KB
+2025-01-24T19:35:46.784Z INFO  - ee85922174bb Extracting 1KB / 1KB
+2025-01-24T19:35:47.514Z INFO  - ee85922174bb Pull complete
+2025-01-24T19:35:47.597Z INFO  - ed46a3c05246 Extracting 271B / 271B
+2025-01-24T19:35:47.708Z INFO  - ed46a3c05246 Extracting 271B / 271B
+2025-01-24T19:35:47.978Z INFO  - ed46a3c05246 Pull complete
+2025-01-24T19:35:47.983Z INFO  - 11864b4bc796 Extracting 299B / 299B
+2025-01-24T19:35:48.058Z INFO  - 11864b4bc796 Extracting 299B / 299B
+2025-01-24T19:35:48.273Z INFO  - 11864b4bc796 Pull complete
+2025-01-24T19:35:48.349Z INFO  - bc26ac73b1e1 Extracting 93B / 93B
+2025-01-24T19:35:48.368Z INFO  - bc26ac73b1e1 Extracting 93B / 93B
+2025-01-24T19:35:48.531Z INFO  - bc26ac73b1e1 Pull complete
+2025-01-24T19:35:48.544Z INFO  - eafde1013eb0 Extracting 126B / 126B
+2025-01-24T19:35:48.592Z INFO  - eafde1013eb0 Extracting 126B / 126B
+2025-01-24T19:35:49.026Z INFO  - eafde1013eb0 Pull complete
+2025-01-24T19:35:49.140Z INFO  - 16903e1d445c Extracting 419B / 419B
+2025-01-24T19:35:49.149Z INFO  - 16903e1d445c Extracting 419B / 419B
+2025-01-24T19:35:49.386Z INFO  - 16903e1d445c Pull complete
+2025-01-24T19:35:49.404Z INFO  - 3843a0ac72d3 Extracting 1KB / 1KB
+2025-01-24T19:35:49.478Z INFO  - 3843a0ac72d3 Extracting 1KB / 1KB
+2025-01-24T19:35:49.821Z INFO  - 3843a0ac72d3 Pull complete
+2025-01-24T19:35:49.829Z INFO  - 8e788ef6b9cc Extracting 32KB / 1MB
+2025-01-24T19:35:50.333Z INFO  - 8e788ef6b9cc Extracting 160KB / 1MB
+2025-01-24T19:35:50.921Z INFO  - 8e788ef6b9cc Extracting 960KB / 1MB
+2025-01-24T19:35:50.985Z INFO  - 8e788ef6b9cc Extracting 1MB / 1MB
+2025-01-24T19:35:51.095Z INFO  - 8e788ef6b9cc Extracting 1MB / 1MB
+2025-01-24T19:35:51.235Z INFO  - 8e788ef6b9cc Pull complete
+2025-01-24T19:35:51.244Z INFO  - b17a520406dc Extracting 133B / 133B
+2025-01-24T19:35:51.300Z INFO  - b17a520406dc Extracting 133B / 133B
+2025-01-24T19:35:51.499Z INFO  - b17a520406dc Pull complete
+2025-01-24T19:35:51.530Z INFO  -  Digest: sha256:9b4384d73642b76c99065992211df7d173695aec31d4c427b39d1561353e0842
+2025-01-24T19:35:51.535Z INFO  -  Status: Downloaded newer image for 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T19:35:51.591Z INFO  - Pull Image successful, Time taken: 194 Seconds
+2025-01-24T19:35:52.059Z INFO  - Starting container for site
+2025-01-24T19:35:52.063Z INFO  - docker run -d --expose=8080 --name winter-frontend-app_0_e4ff4969 -e WEBSITE_USE_DIAGNOSTIC_SERVER=true -e WEBSITE_SITE_NAME=winter-frontend-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=winter-frontend-app.azurewebsites.net -e WEBSITE_INSTANCE_ID=3d3e8677b472c7425bdb8347bc62ebdd569a1f6ceaa26725d6ac591a1d8353cd appsvc/node:20-lts_20240819.2.tuxprod 
+2025-01-24T19:35:52.065Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2025-01-24T19:35:56.466Z INFO  - Initiating warmup request to container winter-frontend-app_0_e4ff4969 for site winter-frontend-app
+2025-01-24T19:36:14.227Z ERROR - Container winter-frontend-app_0_e4ff4969 for site winter-frontend-app has exited, failing site start
+2025-01-24T19:36:14.264Z ERROR - Container winter-frontend-app_0_e4ff4969 didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2025-01-24T19:36:14.304Z INFO  - Stopping site winter-frontend-app because it failed during startup.
+2025-01-24T19:36:19.6616447Z Container is terminating. Grace period: 0 seconds.
+2025-01-24T19:36:19.7400558Z Stop and delete container. Retry count = 0
+2025-01-24T19:36:19.7450963Z Stopping container: winter-frontend-app_kudu_14dc941f.
+2025-01-24T19:36:20.3911228Z Deleting container: winter-frontend-app_kudu_14dc941f. Retry count = 0
+2025-01-24T19:36:21.5908003Z Container spec TerminationMessagePolicy  path 
+2025-01-24T19:36:21.7138996Z Container is terminated. Total time elapsed: 2049 ms.
+2025-01-24T20:36:29.2575942Z Container start method called.
+2025-01-24T20:36:29.2877604Z Establishing network.
+2025-01-24T20:36:29.2938209Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T20:36:31.5135671Z Container is starting.
+2025-01-24T20:36:31.5149219Z Establishing user namespace if not established already.
+2025-01-24T20:36:31.5152931Z Establishing network if not established already.
+2025-01-24T20:36:31.5246847Z Mounting volumes.
+2025-01-24T20:36:31.5420296Z Nested mountpoint 
+2025-01-24T20:36:31.5878743Z Nested mountpoint volatile/logs
+2025-01-24T20:36:31.5992947Z Nested mountpoint 
+2025-01-24T20:36:31.6854448Z Nested mountpoint 
+2025-01-24T20:36:31.6943137Z Nested mountpoint 
+2025-01-24T20:36:31.8314845Z Nested mountpoint 
+2025-01-24T20:36:33.9223414Z Creating container.
+2025-01-24T20:36:33.9235477Z Creating pipes for streaming container io.
+2025-01-24T20:36:33.9418733Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_75705116/stdout_93838e9a67bf4f3f963f62bd4bd4671d.
+2025-01-24T20:36:33.9498981Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_75705116/stdout_93838e9a67bf4f3f963f62bd4bd4671d.
+2025-01-24T20:36:33.9517700Z Opening named pipe /podr/container/pipe/winter-frontend-app_75705116/stdout_93838e9a67bf4f3f963f62bd4bd4671d for reading in non-blocking mode.
+2025-01-24T20:36:33.9525197Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_75705116/stdout_93838e9a67bf4f3f963f62bd4bd4671d.
+2025-01-24T20:36:33.9626484Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_75705116/stdout_93838e9a67bf4f3f963f62bd4bd4671d.
+2025-01-24T20:36:33.9792162Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_75705116/stderr_27745907d1ea419098d852141b83da5a.
+2025-01-24T20:36:33.9822673Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_75705116/stderr_27745907d1ea419098d852141b83da5a.
+2025-01-24T20:36:33.9987877Z Opening named pipe /podr/container/pipe/winter-frontend-app_75705116/stderr_27745907d1ea419098d852141b83da5a for reading in non-blocking mode.
+2025-01-24T20:36:34.0002862Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_75705116/stderr_27745907d1ea419098d852141b83da5a.
+2025-01-24T20:36:34.0163552Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_75705116/stderr_27745907d1ea419098d852141b83da5a.
+2025-01-24T20:36:34.0172801Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T20:36:34.8712419Z Starting container: winter-frontend-app_75705116.
+2025-01-24T20:36:35.0123525Z Starting watchers and probes.
+2025-01-24T20:36:35.0496760Z Starting metrics collection.
+2025-01-24T20:36:35.1076195Z Container is running.
+2025-01-24T20:36:35.6099065Z Container start method finished after 6351 ms.
+2025-01-24T20:36:52.4890298Z Container has finished running with exit code: 127.
+2025-01-24T20:36:52.4907558Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T20:36:52.5241999Z Stop and delete container. Retry count = 0
+2025-01-24T20:36:52.5257263Z Stopping container: winter-frontend-app_75705116.
+2025-01-24T20:36:52.6099724Z Deleting container: winter-frontend-app_75705116. Retry count = 0
+2025-01-24T20:36:53.3435988Z Container spec TerminationMessagePolicy  path 
+2025-01-24T20:36:53.3499436Z Container is terminated. Total time elapsed: 831 ms.
+2025-01-24T20:36:53.3510373Z Site container: winter-frontend-app terminated during site startup.
+2025-01-24T20:36:53.3595004Z Site startup probe failed after 17.654214 seconds.
+2025-01-24T20:36:53.3885873Z Failed to start site. Revert by stopping site.
+2025-01-24T20:36:54.1715412Z Site: winter-frontend-app stopped.
+2025-01-24T20:36:56.8806567Z Container start method called.
+2025-01-24T20:36:56.8905942Z Establishing network.
+2025-01-24T20:36:56.8906501Z Pulling image: appsvc/kudulite:bookworm_20241021.3.tuxprod.
+2025-01-24T20:36:58.619Z INFO  - Starting container for site
+2025-01-24T20:36:58.637Z INFO  - docker run -d --expose=8080 --name winter-frontend-app_0_80c01f0e -e WEBSITE_USE_DIAGNOSTIC_SERVER=true -e WEBSITE_SITE_NAME=winter-frontend-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=winter-frontend-app.azurewebsites.net -e WEBSITE_INSTANCE_ID=3d3e8677b472c7425bdb8347bc62ebdd569a1f6ceaa26725d6ac591a1d8353cd appsvc/node:20-lts_20240819.2.tuxprod 
+2025-01-24T20:36:58.643Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2025-01-24T20:37:06.600Z INFO  - Initiating warmup request to container winter-frontend-app_0_80c01f0e for site winter-frontend-app
+2025-01-24T20:37:28.765Z INFO  - Waiting for response to warmup request for container winter-frontend-app_0_80c01f0e. Elapsed time = 22.164011 sec
+2025-01-24T20:37:48.765Z INFO  - Waiting for response to warmup request for container winter-frontend-app_0_80c01f0e. Elapsed time = 42.1654912 sec
+2025-01-24T20:37:55.425Z ERROR - Container winter-frontend-app_0_80c01f0e for site winter-frontend-app has exited, failing site start
+2025-01-24T20:37:55.502Z ERROR - Container winter-frontend-app_0_80c01f0e didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2025-01-24T20:37:55.600Z INFO  - Stopping site winter-frontend-app because it failed during startup.
+winter-frontend-app_kudu_2f607d17/stdout_f11f04012e7742f89eb21de12212d3a7.
+2025-01-24T20:37:00.6492690Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stdout_f11f04012e7742f89eb21de12212d3a7.
+2025-01-24T20:37:00.6494811Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stdout_f11f04012e7742f89eb21de12212d3a7 for reading in non-blocking mode.
+2025-01-24T20:37:00.7259048Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stdout_f11f04012e7742f89eb21de12212d3a7.
+2025-01-24T20:37:00.7265845Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stdout_f11f04012e7742f89eb21de12212d3a7.
+2025-01-24T20:37:00.7271339Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stderr_6d6eba286fd148d59096cd14b2e80dbc.
+2025-01-24T20:37:00.7276359Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stderr_6d6eba286fd148d59096cd14b2e80dbc.
+2025-01-24T20:37:00.7540312Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stderr_6d6eba286fd148d59096cd14b2e80dbc for reading in non-blocking mode.
+2025-01-24T20:37:00.7553547Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stderr_6d6eba286fd148d59096cd14b2e80dbc.
+2025-01-24T20:37:00.7561740Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_2f607d17/stderr_6d6eba286fd148d59096cd14b2e80dbc.
+2025-01-24T20:37:00.7628522Z Creating container with image: appsvc/kudulite:bookworm_20241021.3.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/kudulite:bookworm_20241021.3.tuxprod
+2025-01-24T20:37:02.7193211Z Starting container: winter-frontend-app_kudu_2f607d17.
+2025-01-24T20:37:03.2698258Z Starting watchers and probes.
+2025-01-24T20:37:03.3811625Z Starting metrics collection.
+2025-01-24T20:37:03.3813017Z Container is running.
+2025-01-24T20:37:03.4308541Z Container start method finished after 6549 ms.
+2025-01-24T20:38:01.4388500Z Container is terminating. Grace period: 0 seconds.
+2025-01-24T20:38:01.5710334Z Stop and delete container. Retry count = 0
+2025-01-24T20:38:01.6094767Z Stopping container: winter-frontend-app_kudu_2f607d17.
+2025-01-24T20:38:03.2581813Z Deleting container: winter-frontend-app_kudu_2f607d17. Retry count = 0
+2025-01-24T20:38:04.8690334Z Container spec TerminationMessagePolicy  path 
+2025-01-24T20:38:04.8695967Z Container is terminated. Total time elapsed: 3424 ms.
+2025-01-24T20:53:31.5311035Z Container start method called.
+2025-01-24T20:53:31.5332613Z Establishing network.
+2025-01-24T20:53:31.5381664Z Pulling image: appsvc/kudulite:bookworm_20241021.3.tuxprod.
+2025-01-24T20:53:36.1533000Z Container is starting.
+2025-01-24T20:53:36.1602488Z Establishing user namespace if not established already.
+2025-01-24T20:53:36.1620704Z Establishing network if not established already.
+2025-01-24T20:53:36.1691770Z Mounting volumes.
+2025-01-24T20:53:36.1743783Z Nested mountpoint 
+2025-01-24T20:53:36.2108529Z Nested mountpoint volatile/logs
+2025-01-24T20:53:36.2272212Z Nested mountpoint 
+2025-01-24T20:53:36.2747388Z Nested mountpoint 
+2025-01-24T20:53:36.3290434Z Nested mountpoint 
+2025-01-24T20:53:36.4695567Z Creating container.
+2025-01-24T20:53:36.4784564Z Creating pipes for streaming container io.
+2025-01-24T20:53:36.4797693Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stdout_e69e32033eaf45da842127265eca006b.
+2025-01-24T20:53:36.4864592Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stdout_e69e32033eaf45da842127265eca006b.
+2025-01-24T20:53:36.4879252Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stdout_e69e32033eaf45da842127265eca006b for reading in non-blocking mode.
+2025-01-24T20:53:36.4893313Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stdout_e69e32033eaf45da842127265eca006b.
+2025-01-24T20:53:36.4972003Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stdout_e69e32033eaf45da842127265eca006b.
+2025-01-24T20:53:36.4984244Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stderr_fb29fbd07a544ece933494d97a63f37f.
+2025-01-24T20:53:36.5052366Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stderr_fb29fbd07a544ece933494d97a63f37f.
+2025-01-24T20:53:36.5066113Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stderr_fb29fbd07a544ece933494d97a63f37f for reading in non-blocking mode.
+2025-01-24T20:53:36.5081503Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stderr_fb29fbd07a544ece933494d97a63f37f.
+2025-01-24T20:53:36.5153092Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_75b1e2e7/stderr_fb29fbd07a544ece933494d97a63f37f.
+2025-01-24T20:53:36.5170578Z Creating container with image: appsvc/kudulite:bookworm_20241021.3.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bookworm_20241021.3.tuxprod
+2025-01-24T20:53:37.7257321Z Starting container: winter-frontend-app_kudu_75b1e2e7.
+2025-01-24T20:53:37.9379807Z Starting watchers and probes.
+2025-01-24T20:53:38.0309130Z Starting metrics collection.
+2025-01-24T20:53:38.0701172Z Container is running.
+2025-01-24T20:53:38.3648693Z Container start method finished after 6774 ms.
+2025-01-24T20:57:59.5684950Z Container start method called.
+2025-01-24T20:57:59.5754268Z Establishing network.
+2025-01-24T20:57:59.5757403Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T20:58:08.5833877Z Container is starting.
+2025-01-24T20:58:08.5852906Z Establishing user namespace if not established already.
+2025-01-24T20:58:08.5856806Z Establishing network if not established already.
+2025-01-24T20:58:08.5858592Z Mounting volumes.
+2025-01-24T20:58:08.6046225Z Nested mountpoint 
+2025-01-24T20:58:08.6360566Z Nested mountpoint volatile/logs
+2025-01-24T20:58:08.6908576Z Nested mountpoint 
+2025-01-24T20:58:08.7086709Z Nested mountpoint 
+2025-01-24T20:58:08.7175994Z Nested mountpoint 
+2025-01-24T20:58:08.8561894Z Nested mountpoint 
+2025-01-24T20:58:11.9984711Z Creating container.
+2025-01-24T20:58:12.0000655Z Creating pipes for streaming container io.
+2025-01-24T20:58:12.0069071Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_c5cf919e/stdout_4915b070e8c643519f6e28fdc7a2bbeb.
+2025-01-24T20:58:12.0077740Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_c5cf919e/stdout_4915b070e8c643519f6e28fdc7a2bbeb.
+2025-01-24T20:58:12.0085471Z Opening named pipe /podr/container/pipe/winter-frontend-app_c5cf919e/stdout_4915b070e8c643519f6e28fdc7a2bbeb for reading in non-blocking mode.
+2025-01-24T20:58:12.0089692Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_c5cf919e/stdout_4915b070e8c643519f6e28fdc7a2bbeb.
+2025-01-24T20:58:12.0268382Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_c5cf919e/stdout_4915b070e8c643519f6e28fdc7a2bbeb.
+2025-01-24T20:58:12.0273077Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_c5cf919e/stderr_99bf4df8cbf842cd97ce630a023d5df3.
+2025-01-24T20:58:12.0276464Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_c5cf919e/stderr_99bf4df8cbf842cd97ce630a023d5df3.
+2025-01-24T20:58:12.0279144Z Opening named pipe /podr/container/pipe/winter-frontend-app_c5cf919e/stderr_99bf4df8cbf842cd97ce630a023d5df3 for reading in non-blocking mode.
+2025-01-24T20:58:12.0284932Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_c5cf919e/stderr_99bf4df8cbf842cd97ce630a023d5df3.
+2025-01-24T20:58:12.0288573Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_c5cf919e/stderr_99bf4df8cbf842cd97ce630a023d5df3.
+2025-01-24T20:58:12.0291454Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T20:58:14.4756532Z Starting container: winter-frontend-app_c5cf919e.
+2025-01-24T20:58:14.8324180Z Starting watchers and probes.
+2025-01-24T20:58:14.9171419Z Starting metrics collection.
+2025-01-24T20:58:14.9260970Z Container is running.
+2025-01-24T20:58:16.6893210Z Container start method finished after 17115 ms.
+2025-01-24T20:58:39.8625416Z Container has finished running with exit code: 127.
+2025-01-24T20:58:39.8692701Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T20:58:39.8783083Z Stop and delete container. Retry count = 0
+2025-01-24T20:58:39.8809955Z Stopping container: winter-frontend-app_c5cf919e.
+2025-01-24T20:58:40.0565888Z Deleting container: winter-frontend-app_c5cf919e. Retry count = 0
+2025-01-24T20:58:41.3524163Z Container spec TerminationMessagePolicy  path 
+2025-01-24T20:58:41.3887198Z Container is terminated. Total time elapsed: 1516 ms.
+2025-01-24T20:58:41.3982804Z Site container: winter-frontend-app terminated during site startup.
+2025-01-24T20:58:41.4071322Z Site startup probe failed after 24.6237815 seconds.
+2025-01-24T20:58:41.4781633Z Failed to start site. Revert by stopping site.
+2025-01-24T20:58:42.3132268Z Site: winter-frontend-app stopped.
+2025-01-24T20:58:51.141Z INFO  - Starting container for site
+2025-01-24T20:58:51.150Z INFO  - docker run -d --expose=8080 --name winter-frontend-app_0_a9bde0cf -e WEBSITE_USE_DIAGNOSTIC_SERVER=true -e WEBSITE_SITE_NAME=winter-frontend-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=winter-frontend-app.azurewebsites.net -e WEBSITE_INSTANCE_ID=3d3e8677b472c7425bdb8347bc62ebdd569a1f6ceaa26725d6ac591a1d8353cd appsvc/node:20-lts_20240819.2.tuxprod 
+2025-01-24T20:58:51.152Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2025-01-24T20:59:01.074Z INFO  - Initiating warmup request to container winter-frontend-app_0_a9bde0cf for site winter-frontend-app
+2025-01-24T20:59:22.209Z INFO  - Waiting for response to warmup request for container winter-frontend-app_0_a9bde0cf. Elapsed time = 21.1358079 sec
+2025-01-24T20:59:27.005Z ERROR - Container winter-frontend-app_0_a9bde0cf for site winter-frontend-app has exited, failing site start
+2025-01-24T20:59:27.074Z ERROR - Container winter-frontend-app_0_a9bde0cf didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2025-01-24T20:59:27.159Z INFO  - Stopping site winter-frontend-app because it failed during startup.
+2025-01-24T20:59:32.5108548Z Container is terminating. Grace period: 0 seconds.
+2025-01-24T20:59:32.5533415Z Stop and delete container. Retry count = 0
+2025-01-24T20:59:32.5549623Z Stopping container: winter-frontend-app_kudu_75b1e2e7.
+2025-01-24T20:59:32.7821312Z Deleting container: winter-frontend-app_kudu_75b1e2e7. Retry count = 0
+2025-01-24T20:59:33.4864778Z Container spec TerminationMessagePolicy  path 
+2025-01-24T20:59:33.4874830Z Container is terminated. Total time elapsed: 972 ms.
+2025-01-24T21:01:25.450Z INFO  - Starting container for site
+2025-01-24T21:01:25.452Z INFO  - docker run -d --expose=8080 --name winter-frontend-app_0_8ca3b734 -e WEBSITE_USE_DIAGNOSTIC_SERVER=true -e WEBSITE_SITE_NAME=winter-frontend-app -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=winter-frontend-app.azurewebsites.net -e WEBSITE_INSTANCE_ID=3d3e8677b472c7425bdb8347bc62ebdd569a1f6ceaa26725d6ac591a1d8353cd appsvc/node:20-lts_20240819.2.tuxprod 
+2025-01-24T21:01:25.454Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2025-01-24T21:01:28.701Z INFO  - Initiating warmup request to container winter-frontend-app_0_8ca3b734 for site winter-frontend-app
+2025-01-24T21:01:42.369Z ERROR - Container winter-frontend-app_0_8ca3b734 for site winter-frontend-app has exited, failing site start
+2025-01-24T21:01:42.386Z ERROR - Container winter-frontend-app_0_8ca3b734 didn't respond to HTTP pings on port: 8080, failing site start. See container logs for debugging.
+2025-01-24T21:01:42.415Z INFO  - Stopping site winter-frontend-app because it failed during startup.
+2025-01-24T21:10:18.2822281Z Container start method called.
+2025-01-24T21:10:18.2831203Z Establishing network.
+2025-01-24T21:10:18.2831917Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T21:10:20.7125732Z Container is starting.
+2025-01-24T21:10:20.7138284Z Establishing user namespace if not established already.
+2025-01-24T21:10:20.7141315Z Establishing network if not established already.
+2025-01-24T21:10:20.7145479Z Mounting volumes.
+2025-01-24T21:10:20.7259599Z Nested mountpoint 
+2025-01-24T21:10:20.7693709Z Nested mountpoint volatile/logs
+2025-01-24T21:10:20.7809708Z Nested mountpoint 
+2025-01-24T21:10:20.8357057Z Nested mountpoint 
+2025-01-24T21:10:20.8362991Z Nested mountpoint 
+2025-01-24T21:10:20.8757504Z Nested mountpoint 
+2025-01-24T21:10:23.1039125Z Creating container.
+2025-01-24T21:10:23.1204378Z Creating pipes for streaming container io.
+2025-01-24T21:10:23.1217095Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_87c4101d/stdout_07c7cfa4ea544af984382e594e18eaa8.
+2025-01-24T21:10:23.1468578Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_87c4101d/stdout_07c7cfa4ea544af984382e594e18eaa8.
+2025-01-24T21:10:23.1481632Z Opening named pipe /podr/container/pipe/winter-frontend-app_87c4101d/stdout_07c7cfa4ea544af984382e594e18eaa8 for reading in non-blocking mode.
+2025-01-24T21:10:23.1496323Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_87c4101d/stdout_07c7cfa4ea544af984382e594e18eaa8.
+2025-01-24T21:10:23.1572224Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_87c4101d/stdout_07c7cfa4ea544af984382e594e18eaa8.
+2025-01-24T21:10:23.1575821Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_87c4101d/stderr_e52da84b652e4cad9fa239956ac67ef6.
+2025-01-24T21:10:23.1579937Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_87c4101d/stderr_e52da84b652e4cad9fa239956ac67ef6.
+2025-01-24T21:10:23.1581920Z Opening named pipe /podr/container/pipe/winter-frontend-app_87c4101d/stderr_e52da84b652e4cad9fa239956ac67ef6 for reading in non-blocking mode.
+2025-01-24T21:10:23.1584319Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_87c4101d/stderr_e52da84b652e4cad9fa239956ac67ef6.
+2025-01-24T21:10:23.1588768Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_87c4101d/stderr_e52da84b652e4cad9fa239956ac67ef6.
+2025-01-24T21:10:23.1658427Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T21:10:24.1961469Z Starting container: winter-frontend-app_87c4101d.
+2025-01-24T21:10:24.3217013Z Starting watchers and probes.
+2025-01-24T21:10:24.4081901Z Starting metrics collection.
+2025-01-24T21:10:24.4253719Z Container is running.
+2025-01-24T21:10:25.1486110Z Container start method finished after 6825 ms.
+2025-01-24T21:10:38.5508606Z Site startup probe succeeded after 13.3026086 seconds.
+2025-01-24T21:10:38.7258059Z Site started.
+2025-01-24T21:10:38.7836695Z Site is running with deployment version: 9ad914b2-9561-46dc-ad8a-10a736b7fb6b
+2025-01-24T21:29:42.7943580Z Container start method called.
+2025-01-24T21:29:42.8013960Z Establishing network.
+2025-01-24T21:29:42.8014938Z Pulling image: appsvc/node:20-lts_20240819.2.tuxprod.
+2025-01-24T21:29:45.4766686Z Container is starting.
+2025-01-24T21:29:45.4849113Z Establishing user namespace if not established already.
+2025-01-24T21:29:45.4919649Z Establishing network if not established already.
+2025-01-24T21:29:45.4933602Z Mounting volumes.
+2025-01-24T21:29:45.4955848Z Nested mountpoint 
+2025-01-24T21:29:45.5238717Z Nested mountpoint volatile/logs
+2025-01-24T21:29:45.5506658Z Nested mountpoint 
+2025-01-24T21:29:45.5709359Z Nested mountpoint 
+2025-01-24T21:29:45.5800197Z Nested mountpoint 
+2025-01-24T21:29:45.6209657Z Nested mountpoint 
+2025-01-24T21:29:50.0715734Z Creating container.
+2025-01-24T21:29:50.0908598Z Creating pipes for streaming container io.
+2025-01-24T21:29:50.1080038Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_b012aa50/stdout_1ca4150c475442b5995ff66e7021689e.
+2025-01-24T21:29:50.1165834Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_b012aa50/stdout_1ca4150c475442b5995ff66e7021689e.
+2025-01-24T21:29:50.1178765Z Opening named pipe /podr/container/pipe/winter-frontend-app_b012aa50/stdout_1ca4150c475442b5995ff66e7021689e for reading in non-blocking mode.
+2025-01-24T21:29:50.1189799Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_b012aa50/stdout_1ca4150c475442b5995ff66e7021689e.
+2025-01-24T21:29:50.1351580Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_b012aa50/stdout_1ca4150c475442b5995ff66e7021689e.
+2025-01-24T21:29:50.1357478Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_b012aa50/stderr_25669b973575492aa12d4f4692a87df0.
+2025-01-24T21:29:50.1364389Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_b012aa50/stderr_25669b973575492aa12d4f4692a87df0.
+2025-01-24T21:29:50.1374660Z Opening named pipe /podr/container/pipe/winter-frontend-app_b012aa50/stderr_25669b973575492aa12d4f4692a87df0 for reading in non-blocking mode.
+2025-01-24T21:29:50.1384534Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_b012aa50/stderr_25669b973575492aa12d4f4692a87df0.
+2025-01-24T21:29:50.1452093Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_b012aa50/stderr_25669b973575492aa12d4f4692a87df0.
+2025-01-24T21:29:50.1463769Z Creating container with image: appsvc/node:20-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:20-lts_20240819.2.tuxprod
+2025-01-24T21:29:50.9864092Z Starting container: winter-frontend-app_b012aa50.
+2025-01-24T21:29:51.1340417Z Starting watchers and probes.
+2025-01-24T21:29:51.1790832Z Starting metrics collection.
+2025-01-24T21:29:51.1878777Z Container is running.
+2025-01-24T21:29:51.6708298Z Container start method finished after 8876 ms.
+2025-01-24T21:30:00.2157048Z Site startup probe succeeded after 8.4566962 seconds.
+2025-01-24T21:30:00.5863554Z Site started.
+2025-01-24T21:30:00.6431858Z Site is running with deployment version: 9ad914b2-9561-46dc-ad8a-10a736b7fb6b
+2025-01-24T21:30:21.1632586Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T21:30:21.3169866Z Stop and delete container. Retry count = 0
+2025-01-24T21:30:21.3183929Z Stopping container: winter-frontend-app_87c4101d.
+2025-01-24T21:30:22.0003718Z Deleting container: winter-frontend-app_87c4101d. Retry count = 0
+2025-01-24T21:30:22.7606391Z Container spec TerminationMessagePolicy  path 
+2025-01-24T21:30:22.7622076Z Container is terminated. Total time elapsed: 1590 ms.
+2025-01-24T21:34:58.8889069Z Container start method called.
+2025-01-24T21:34:58.8976429Z Establishing network.
+2025-01-24T21:34:58.8988479Z Pulling image: appsvc/kudulite:bookworm_20241021.3.tuxprod.
+2025-01-24T21:35:01.3803983Z Container is starting.
+2025-01-24T21:35:01.3816578Z Establishing user namespace if not established already.
+2025-01-24T21:35:01.3823072Z Establishing network if not established already.
+2025-01-24T21:35:01.3888639Z Mounting volumes.
+2025-01-24T21:35:01.3978857Z Nested mountpoint 
+2025-01-24T21:35:01.4370941Z Nested mountpoint volatile/logs
+2025-01-24T21:35:01.4543756Z Nested mountpoint 
+2025-01-24T21:35:01.4765929Z Nested mountpoint 
+2025-01-24T21:35:01.5336978Z Nested mountpoint 
+2025-01-24T21:35:01.8666881Z Creating container.
+2025-01-24T21:35:01.8746715Z Creating pipes for streaming container io.
+2025-01-24T21:35:01.8758198Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stdout_59b9a00af10d49ad81403e09858f2961.
+2025-01-24T21:35:01.8776287Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stdout_59b9a00af10d49ad81403e09858f2961.
+2025-01-24T21:35:01.8840185Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stdout_59b9a00af10d49ad81403e09858f2961 for reading in non-blocking mode.
+2025-01-24T21:35:01.8841429Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stdout_59b9a00af10d49ad81403e09858f2961.
+2025-01-24T21:35:01.9044353Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stdout_59b9a00af10d49ad81403e09858f2961.
+2025-01-24T21:35:01.9124321Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stderr_de6cfb2d391d401aa7c7ec47351c6c03.
+2025-01-24T21:35:01.9151024Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stderr_de6cfb2d391d401aa7c7ec47351c6c03.
+2025-01-24T21:35:01.9242980Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stderr_de6cfb2d391d401aa7c7ec47351c6c03 for reading in non-blocking mode.
+2025-01-24T21:35:01.9335930Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stderr_de6cfb2d391d401aa7c7ec47351c6c03.
+2025-01-24T21:35:01.9411776Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_a411b8af/stderr_de6cfb2d391d401aa7c7ec47351c6c03.
+2025-01-24T21:35:01.9429299Z Creating container with image: appsvc/kudulite:bookworm_20241021.3.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bookworm_20241021.3.tuxprod
+2025-01-24T21:35:04.7351551Z Starting container: winter-frontend-app_kudu_a411b8af.
+2025-01-24T21:35:04.8532737Z Starting watchers and probes.
+2025-01-24T21:35:04.8777691Z Starting metrics collection.
+2025-01-24T21:35:04.8882524Z Container is running.
+2025-01-24T21:35:05.2759489Z Container start method finished after 6384 ms.
+2025-01-24T21:36:01.4298030Z Container start method called.
+2025-01-24T21:36:01.4418880Z Establishing network.
+2025-01-24T21:36:01.6054586Z Pulling image: appsvc/node:18-lts_20240819.2.tuxprod.
+2025-01-24T21:36:02.1068521Z Container start method called.
+2025-01-24T21:36:02.2485696Z Establishing network.
+2025-01-24T21:36:02.2491885Z Pulling image: appsvc/kudulite:bullseye_20241021.3.tuxprod.
+2025-01-24T21:40:59.7359535Z Image appsvc/node:18-lts_20240819.2.tuxprod is pulled from registry 10.1.0.5:13209
+2025-01-24T21:40:59.7655083Z Container is starting.
+2025-01-24T21:40:59.7727834Z Establishing user namespace if not established already.
+2025-01-24T21:40:59.7827919Z Establishing network if not established already.
+2025-01-24T21:40:59.7919296Z Mounting volumes.
+2025-01-24T21:40:59.8205259Z Nested mountpoint 
+2025-01-24T21:40:59.8859627Z Nested mountpoint volatile/logs
+2025-01-24T21:40:59.9668634Z Nested mountpoint 
+2025-01-24T21:41:00.0823486Z Nested mountpoint 
+2025-01-24T21:41:00.1748244Z Nested mountpoint 
+2025-01-24T21:41:00.3008158Z Nested mountpoint 
+2025-01-24T21:41:06.3409035Z Creating container.
+2025-01-24T21:41:06.3416761Z Creating pipes for streaming container io.
+2025-01-24T21:41:06.4066792Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_aa02b00a/stdout_1f7f69fcf6b14c27b00ba2ca8caa10d9.
+2025-01-24T21:41:06.4244697Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_aa02b00a/stdout_1f7f69fcf6b14c27b00ba2ca8caa10d9.
+2025-01-24T21:41:06.4368879Z Opening named pipe /podr/container/pipe/winter-frontend-app_aa02b00a/stdout_1f7f69fcf6b14c27b00ba2ca8caa10d9 for reading in non-blocking mode.
+2025-01-24T21:41:06.4449813Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_aa02b00a/stdout_1f7f69fcf6b14c27b00ba2ca8caa10d9.
+2025-01-24T21:41:06.4555221Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_aa02b00a/stdout_1f7f69fcf6b14c27b00ba2ca8caa10d9.
+2025-01-24T21:41:06.4627716Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_aa02b00a/stderr_323746394e414e028f7dc23f542f461c.
+2025-01-24T21:41:06.4649506Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_aa02b00a/stderr_323746394e414e028f7dc23f542f461c.
+2025-01-24T21:41:06.4945150Z Opening named pipe /podr/container/pipe/winter-frontend-app_aa02b00a/stderr_323746394e414e028f7dc23f542f461c for reading in non-blocking mode.
+2025-01-24T21:41:06.5300249Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_aa02b00a/stderr_323746394e414e028f7dc23f542f461c.
+2025-01-24T21:41:06.5494426Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_aa02b00a/stderr_323746394e414e028f7dc23f542f461c.
+2025-01-24T21:41:06.5503601Z Creating container with image: appsvc/node:18-lts_20240819.2.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/node:18-lts_20240819.2.tuxprod
+2025-01-24T21:41:32.6359074Z Image appsvc/kudulite:bullseye_20241021.3.tuxprod is pulled from registry 10.1.0.5:13209
+2025-01-24T21:41:32.6461933Z Container is starting.
+2025-01-24T21:41:32.6560488Z Establishing user namespace if not established already.
+2025-01-24T21:41:32.6625890Z Establishing network if not established already.
+2025-01-24T21:41:32.6638645Z Mounting volumes.
+2025-01-24T21:41:32.6651704Z Nested mountpoint 
+2025-01-24T21:41:32.7591094Z Nested mountpoint volatile/logs
+2025-01-24T21:41:32.7980472Z Nested mountpoint 
+2025-01-24T21:41:32.9628180Z Nested mountpoint 
+2025-01-24T21:41:33.0189526Z Nested mountpoint 
+2025-01-24T21:41:33.0978486Z Creating container.
+2025-01-24T21:41:33.1052481Z Creating pipes for streaming container io.
+2025-01-24T21:41:33.1067977Z Creating stdout named pipe at /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stdout_46bc4ae5f0304999b27ef67383e231f0.
+2025-01-24T21:41:33.1148085Z Successfully created stdout named pipe at: /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stdout_46bc4ae5f0304999b27ef67383e231f0.
+2025-01-24T21:41:33.1154256Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stdout_46bc4ae5f0304999b27ef67383e231f0 for reading in non-blocking mode.
+2025-01-24T21:41:33.1164694Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stdout_46bc4ae5f0304999b27ef67383e231f0.
+2025-01-24T21:41:33.1177121Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stdout_46bc4ae5f0304999b27ef67383e231f0.
+2025-01-24T21:41:33.1270765Z Creating stderr named pipe at /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stderr_c04175d1357e49ea99156b7eb1244545.
+2025-01-24T21:41:33.1355622Z Successfully created stderr named pipe at: /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stderr_c04175d1357e49ea99156b7eb1244545.
+2025-01-24T21:41:33.1434767Z Opening named pipe /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stderr_c04175d1357e49ea99156b7eb1244545 for reading in non-blocking mode.
+2025-01-24T21:41:33.1450842Z Successfully opened named pipe: /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stderr_c04175d1357e49ea99156b7eb1244545.
+2025-01-24T21:41:33.1466049Z Successfully removed non-blocking flag from /podr/container/pipe/winter-frontend-app_kudu_145a67dd/stderr_c04175d1357e49ea99156b7eb1244545.
+2025-01-24T21:41:33.1547883Z Creating container with image: appsvc/kudulite:bullseye_20241021.3.tuxprod from registry: 10.1.0.5:13209 and fully qualified image name: 10.1.0.5:13209/appsvc/kudulite:bullseye_20241021.3.tuxprod
+2025-01-24T21:42:18.1650559Z Starting container: winter-frontend-app_aa02b00a.
+2025-01-24T21:42:19.0469820Z Starting watchers and probes.
+2025-01-24T21:42:19.1436577Z Starting metrics collection.
+2025-01-24T21:42:19.1641450Z Container is running.
+2025-01-24T21:42:20.9652545Z Container start method finished after 379504 ms.
+2025-01-24T21:43:03.4917428Z Site startup probe succeeded after 42.2955598 seconds.
+2025-01-24T21:43:05.2472108Z Site started.
+2025-01-24T21:43:05.3979230Z Site is running with deployment version: 9ad914b2-9561-46dc-ad8a-10a736b7fb6b
+2025-01-24T21:43:26.3599990Z Container is terminating. Grace period: 5 seconds.
+2025-01-24T21:43:27.5295959Z Stop and delete container. Retry count = 0
+2025-01-24T21:43:27.5405161Z Stopping container: winter-frontend-app_b012aa50.
+2025-01-24T21:43:28.7624834Z Deleting container: winter-frontend-app_b012aa50. Retry count = 0
+2025-01-24T21:43:30.1321533Z Container spec TerminationMessagePolicy  path 
+2025-01-24T21:43:30.1422926Z Container is terminated. Total time elapsed: 3781 ms.
+2025-01-24T21:44:09.8272022Z Starting container: winter-frontend-app_kudu_145a67dd.
+2025-01-24T21:44:10.0594471Z Starting watchers and probes.
+2025-01-24T21:44:10.0868751Z Starting metrics collection.
+2025-01-24T21:44:10.0975291Z Container is running.
+2025-01-24T21:44:10.7614227Z Container start method finished after 488519 ms.
+2025-01-24T21:44:53.0356996Z Container is terminating. Grace period: 0 seconds.
+2025-01-24T21:44:53.3474824Z Stop and delete container. Retry count = 0
+2025-01-24T21:44:53.3696106Z Stopping container: winter-frontend-app_kudu_a411b8af.
+2025-01-24T21:44:54.2891251Z Deleting container: winter-frontend-app_kudu_a411b8af. Retry count = 0
+2025-01-24T21:44:55.3979084Z Container spec TerminationMessagePolicy  path 
+2025-01-24T21:44:55.4178314Z Container is terminated. Total time elapsed: 2380 ms.

@@ -1,0 +1,11 @@
+2025-01-24T19:21:32.4850898Z,Updating submodules.,8d732c1b-cae6-4d96-8219-b5512ce5689d,0
+2025-01-24T19:21:33.6327861Z,Preparing deployment for commit id '9f989533-0'.,409e2144-02fb-417a-9d64-de1854dafe70,0
+2025-01-24T19:21:34.0335299Z,PreDeployment: context.CleanOutputPath False,f309d03a-98c2-427f-ab25-3b271d69dc0e,0
+2025-01-24T19:21:34.2405654Z,PreDeployment: context.OutputPath /home/site/wwwroot,4242aaef-1bed-4519-985d-7df03241fe2f,0
+2025-01-24T19:21:34.4264793Z,Running build. Project type: OneDeploy,d46c5576-59ea-4ab6-b696-e55a64e8fabc,0
+2025-01-24T19:21:34.5642256Z,Copying the manifest,538e7276-5581-4ae1-a67e-24719f02cbe1,0
+2025-01-24T19:21:34.7528455Z,Incrementally deploying to /home/site/wwwroot,2b234258-b8e9-4677-9ce4-0cce078d0b3c,0
+2025-01-24T19:21:36.0064330Z,Build completed succesfully.,58f535ec-ba11-4909-a66f-aaf2bebbf2ec,0
+2025-01-24T19:21:36.1497899Z,Running post deployment command(s)...,c7d00b8e-dc25-49b7-b7b4-057c39f0ccfb,0
+2025-01-24T19:21:36.2973385Z,Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path,409db749-dde8-4d26-98d7-3e8496f8dc65,0
+2025-01-24T19:21:36.4995029Z,Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy,cafe4e76-26e1-441e-880a-9c86096822b6,0

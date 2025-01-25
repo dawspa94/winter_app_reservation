@@ -1,0 +1,33 @@
+2025-01-24T17:09:58.3985326Z,Updating submodules.,9c03069b-71e8-4ee1-8881-e3c70b90e657,0
+2025-01-24T17:09:59.5493929Z,Preparing deployment for commit id '34a84909-c'.,c373d741-40f6-4a3a-b009-347cf794e518,0
+2025-01-24T17:09:59.9878114Z,PreDeployment: context.CleanOutputPath False,87505bbf-6e5f-4213-9089-dd7f4684d0e6,0
+2025-01-24T17:10:00.1357837Z,PreDeployment: context.OutputPath /home/site/wwwroot,4510ec73-a619-4a8e-8855-2a09df6c4754,0
+2025-01-24T17:10:00.3743145Z,Generating deployment script.,f55c08e4-d8a0-41b5-96fc-40d78c431072,0
+	2025-01-24T17:10:00.5876456Z,Using the following command to generate deployment script: 'azure site deploymentscript -y --no-dot-deployment -r "/tmp/zipdeploy/extracted" -o "/home/site/deployments/tools" --basic --sitePath "/tmp/zipdeploy/extracted"'.,,0
+	2025-01-24T17:10:01.3988945Z,Generating deployment script for Web Site,,0
+	2025-01-24T17:10:01.4503227Z,Generated deployment script files,,0
+2025-01-24T17:10:02.2143601Z,Running deployment command...,49f4e560-c548-4986-9f01-fd5e51918a17,0
+	2025-01-24T17:10:02.2457755Z,Command: "/home/site/deployments/tools/deploy.sh",,0
+	2025-01-24T17:10:02.6895094Z,Handling Basic Web Site deployment.,,0
+	2025-01-24T17:10:03.8323342Z,Kudu sync from: '/tmp/zipdeploy/extracted' to: '/home/site/wwwroot',,0
+	2025-01-24T17:10:03.9559301Z,Copying file: '.DS_Store',,0
+	2025-01-24T17:10:04.0352140Z,Copying file: 'asset-manifest.json',,0
+	2025-01-24T17:10:04.1273005Z,Copying file: 'favicon.ico',,0
+	2025-01-24T17:10:04.2498405Z,Copying file: 'index.html',,0
+	2025-01-24T17:10:04.3761287Z,Copying file: 'logo192.png',,0
+	2025-01-24T17:10:04.4792819Z,Copying file: 'logo512.png',,0
+	2025-01-24T17:10:04.5671747Z,Copying file: 'manifest.json',,0
+	2025-01-24T17:10:04.6927526Z,Copying file: 'robots.txt',,0
+	2025-01-24T17:10:04.7506062Z,Deleting file: 'hostingstart.html',,0
+	2025-01-24T17:10:04.8839605Z,Copying file: 'images/winter-background.jpg',,0
+	2025-01-24T17:10:05.0930329Z,Copying file: 'static/css/main.e6c13ad2.css',,0
+	2025-01-24T17:10:05.1472678Z,Copying file: 'static/css/main.e6c13ad2.css.map',,0
+	2025-01-24T17:10:05.3399782Z,Copying file: 'static/js/488.e75445ad.chunk.js',,0
+	2025-01-24T17:10:05.4226184Z,Copying file: 'static/js/488.e75445ad.chunk.js.map',,0
+	2025-01-24T17:10:05.5538037Z,Copying file: 'static/js/main.4a4100bb.js',,0
+	2025-01-24T17:10:05.6781618Z,Copying file: 'static/js/main.4a4100bb.js.LICENSE.txt',,0
+	2025-01-24T17:10:05.8023732Z,Copying file: 'static/js/main.4a4100bb.js.map',,0
+	2025-01-24T17:10:05.9408904Z,Finished successfully.,,0
+2025-01-24T17:10:06.2924791Z,Running post deployment command(s)...,855f9dc1-0891-4702-a97e-fcdf99e6af76,0
+2025-01-24T17:10:06.6305450Z,Triggering recycle (preview mode disabled).,28656ddc-c1de-4467-a988-68d21a8caa44,0
+2025-01-24T17:10:07.2661978Z,Deployment successful. deployer = Push-Deployer deploymentPath = ZipDeploy. Extract zip.,e1a77f2e-7638-4f6b-b809-d156b9df9401,0

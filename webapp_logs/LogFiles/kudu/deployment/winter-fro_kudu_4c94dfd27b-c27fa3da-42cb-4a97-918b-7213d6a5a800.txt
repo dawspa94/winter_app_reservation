@@ -1,0 +1,10 @@
+2025-01-24T19:26:14  Fetching changes.
+2025-01-24T19:26:14    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/52bce2a9-888d-4eff-b93f-897d55a0d0d3.zip (85.97 MB) to /tmp/zipdeploy/extracted
+2025-01-24T19:27:42  Updating submodules.
+2025-01-24T19:27:42  Preparing deployment for commit id '06654ed4-1'.
+2025-01-24T19:27:42  PreDeployment: context.CleanOutputPath False
+2025-01-24T19:27:43  PreDeployment: context.OutputPath /home/site/wwwroot
+2025-01-24T19:27:43  Running build. Project type: OneDeploy
+2025-01-24T19:27:43  Copying the manifest
+2025-01-24T19:27:43  Incrementally deploying to /home/site/wwwroot
+2025-01-24T19:28:10  Deployment Failed. deployer = OneDeploy deploymentPath = OneDeploy
